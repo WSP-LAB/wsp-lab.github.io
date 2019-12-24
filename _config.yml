@@ -1,0 +1,175 @@
+name: WSPLab
+description: Web Security & Privacy Lab
+avatar: /images/logo-icon.svg
+
+main-images:
+  - /images/main-photo_1.jpg
+  - /images/main-photo_2.jpg
+  - /images/main-photo_3.jpg
+
+footer-links:
+  dribbble:
+  email: sl.son@kaist.ac.kr
+  facebook:
+  flickr:
+  github: WSP-LAB
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+disqus:
+
+google_analytics:
+
+url:
+
+baseurl: ""
+permalink: /:title/
+
+version: v1.2.0
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+people_prof:
+  name: Sooel Son
+  photo: /images/sooel.png
+  homepage: https://sites.google.com/site/ssonkaist/home
+
+people_phd:
+  - name: Seongil Wi
+    photo: /images/seongil.jpg
+    homepage: https://seongil-wi.github.io/
+  - name: Suyoung Lee
+    #photo: /images/suyoung.jpg
+    photo:
+    homepage: https://leeswimming.com/
+  - name: Joongyum Kim
+    photo:
+    homepage:
+
+
+people_master:
+  - name: Sunnyeo Park
+    photo:
+    homepage:
+  - name: Junghwan Park
+    photo:
+    homepage: https://pagez.kr/
+  - name: Hyuntae Kim
+    photo:
+    homepage:
+  - name: Hyunju Lee
+    photo:
+    homepage:
+  - name: Daejun Kim ♔
+    photo:
+    homepage:
+
+people_intern:
+  - name: Soyoung Lee
+    photo:
+    homepage:
+
+people_researcher:
+  - name: Sijae Woo
+    photo:
+    homepage:
+
+people_alumni:
+  - name: Taekjin Lee
+    homepage:
+    degree: Master
+    work: National Security Research Institute, South Korea
+
+publication:
+  - year: 2020
+    list:
+    - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
+      link: https://www.ndss-symposium.org/
+      authors: Taekjin Lee, Seongil Wi, Suyoung Lee, Sooel Son
+      published: false
+      booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
+      comments:
+    - title: "Montage: A Neural Network Language Model-Guided JavaScript Fuzzer"
+      link: https://www.usenix.org/conference/usenixsecurity20
+      authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, Sooel Son
+      published: false
+      booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
+      comments:
+  - year: 2019
+    list:
+    - title: Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO
+      link: https://drive.google.com/file/d/1UzYFCnbYEFT2olpX7OwITxEqedtLthMm/view?usp=sharing
+      authors: Sangsup Lee, Daejun Kim, Dongkwan Kim, Sooel Son, Yongdae Kim
+      published: true
+      booktitle: 13th USENIX Workshop on Offensive Technologies (WOOT 2019)
+      comments:
+    - title: An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning
+      link: https://drive.google.com/file/d/1rKlUkLMXmG1i0y9BqxFKf11lqeXVlyqJ/view
+      authors: Sunnyeo Park, Dohyeok Kim, Sooel Son
+      published: true
+      booktitle: 14th ACM ASIA Conference on Computer and Communications Security (ASIACCS 2019)
+      comments:
+        - '[<a href="https://github.com/WSP-LAB/CRScope">GitHub Repo.</a>]'
+  - year: 2018
+    list:
+    - title: "Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications"
+      link: https://drive.google.com/file/d/1kDc4fnD4eZSuCCYqnw8ghGtm71p4Sq4w/view
+      authors: Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, Sooel Son
+      published: true
+      booktitle: 25th ACM Conference on Computer and Communications Security (CCS 2018)
+      comments:
+        - '[<a href="https://github.com/spostman/ppp-ccs2018/raw/master/paper/ppp-ccs2018.pdf">Paper</a>], [<a href="https://github.com/spostman/ppp-ccs2018">GitHub Repo.</a>]'
+        - "There is an error in our paper in the proceedings: Safari 11.1 is NOT vulnerable to the history sniffing attack via cache."
+
+teaching:
+  - name: Machine Learning Application Trends in Information Security
+    code: CS492
+    link:
+    semastors:
+      - name: 2019 Fall
+        link: https://spostman.github.io/cs492
+  - name: Web Service Security and Privacy
+    code: IS542
+    link:
+    semastors:
+      - name: 2019 Spring
+        link: https://docs.google.com/document/d/e/2PACX-1vQM71g1RWcrXYfdEzBvGGEY3jbBcUDOTdG3Y3e9f0s2_wRPXJbtc0ydO3bZ2pdTBrtB1Y87jB4ahJdL/pub
+  - name: Web & Mobile Service Security
+    code: IS593
+    link: https://docs.google.com/document/d/1786AhpYOhtmrKgxZ0jbfg9UFLr3SXyqmoJDdWG_hyzs/preview?pli=1#
+    semastors:
+      - name: 2017 Fall
+        link: https://docs.google.com/document/d/1786AhpYOhtmrKgxZ0jbfg9UFLr3SXyqmoJDdWG_hyzs/preview?pli=1
+      - name: 2018 Spring
+        link:
+  - name: Machine Learning Application Trends in Information Security
+    code: IS593
+    link:
+    semastors:
+      - name: 2018 Fall
+        link: https://docs.google.com/document/d/1oRNC_twHU3eEsNxfN-EyKpqWlSH_MaWfzF5Zuo1VRkg
+
+sass:
+  style: :expanded
+
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
