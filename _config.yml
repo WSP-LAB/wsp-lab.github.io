@@ -155,7 +155,7 @@ publication:
       booktitle: 23rd Network & Distributed System Security Symposium (NDSS 2016)
       comments:
         - <a href="https://www.mediapost.com/publications/article/265783/mobile-ads-can-infer-users-medication-dating-pre.html">Media coverage</a>
-    - title: "Toward better server-side Web security":
+    - title: "Toward better server-side Web security"
       link: https://repositories.lib.utexas.edu/handle/2152/24821
       authors: Sooel Son
       published: true
