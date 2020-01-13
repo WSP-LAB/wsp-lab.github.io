@@ -71,8 +71,8 @@ people_master:
     photo:
     homepage:
   - name: Daejun Kim ♔
-    photo:
-    homepage:
+    photo: /images/reset.png
+    homepage: https://facebook.com/reset.test
 
 people_intern:
   - name: Soyoung Lee
