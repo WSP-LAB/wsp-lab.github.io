@@ -61,9 +61,6 @@ people_master:
   - name: Sunnyeo Park
     photo:
     homepage:
-  - name: Junghwan Park
-    photo:
-    homepage: https://pagez.kr/
   - name: Hyuntae Kim
     photo:
     homepage:
@@ -89,6 +86,10 @@ people_alumni:
     homepage:
     degree: Master
     work: National Security Research Institute, South Korea
+  - name: Junghwan Park
+    homepage: https://pagez.kr/
+    degree: Master
+    work: Naver, South Korea
 
 publication:
   - year: 2020
