@@ -130,7 +130,7 @@ publications:
       published: true
     - title: "Cybercriminal Minds: An Investigative Study of Cryptocurrency Abuses in the Dark Web"
       link: https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_09-1_Lee_paper.pdf
-      authors: Seunghyeon Lee, Changhoon Yoon, Heedo Kang, Yeonkeun Kim, Yongdae Kim, and Dongsu Han
+      authors: Seunghyeon Lee, Changhoon Yoon, Heedo Kang, Yeonkeun Kim, Yongdae Kim, Dongsu Han, Sooel Son, and Seungwon Shin
       published: true
       booktitle: 26th Network & Distributed System Security Symposium (NDSS 2019)
   - year: 2018
