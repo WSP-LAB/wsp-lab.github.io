@@ -91,7 +91,7 @@ people_alumni:
     degree: Master
     work: Naver, South Korea
 
-publication:
+publications:
   - year: 2020
     list:
     - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"

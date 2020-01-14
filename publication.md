@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-## Publication
-{% for pub_group in site.publication %}
+## Publications
+{% for pub_group in site.publications %}
 <h3>{{ pub_group.year }}</h3>
 <ul>
 {% for item in pub_group.list %}
