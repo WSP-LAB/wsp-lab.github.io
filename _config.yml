@@ -94,17 +94,17 @@ people_alumni:
 publication:
   - year: 2020
     list:
+    - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
+      link: https://leeswimming.com/papers/lee-sec20.pdf
+      authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, Sooel Son
+      published: true
+      booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
+      comments:
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
       link: https://www.ndss-symposium.org/
       authors: Taekjin Lee, Seongil Wi, Suyoung Lee, Sooel Son
       published: false
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
-      comments:
-    - title: "Montage: A Neural Network Language Model-Guided JavaScript Fuzzer"
-      link: https://www.usenix.org/conference/usenixsecurity20
-      authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, Sooel Son
-      published: false
-      booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
       comments:
   - year: 2019
     list:
