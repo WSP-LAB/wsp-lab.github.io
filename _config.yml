@@ -1,6 +1,7 @@
-name: WSPLab
-description: Web Security & Privacy Lab
+name: KAIST WSP Lab
+description: KAIST Web Security & Privacy Lab
 avatar: /images/logo-icon.svg
+url: https://wsp-lab.github.io
 
 main-images:
   - /images/main-photo_1.jpg
@@ -25,8 +26,6 @@ footer-links:
 disqus:
 
 google_analytics:
-
-url:
 
 baseurl: ""
 permalink: /:title/
