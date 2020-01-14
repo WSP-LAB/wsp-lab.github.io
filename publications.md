@@ -7,10 +7,12 @@ layout: default
 <ul>
 {% for item in pub_group.list %}
   <li>
-    {{item.title}}{% if item.published == false %} (to appear){% endif %}
+    <strong>
+      {{item.title}}{% if item.published == false %} (to appear){% endif %}
+    </strong>
     <ul>
       <li>{{ item.authors }}.</li>
-      <li>{{ item.booktitle }}</li>
+      <li><em>{{ item.booktitle }}</em></li>
       {% for comment in item.comments %}
       <li>{{ comment }}</li>
       {% endfor %}
