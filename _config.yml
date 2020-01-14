@@ -99,13 +99,11 @@ publications:
       authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, Sooel Son
       published: true
       booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
-      comments:
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
       link: https://www.ndss-symposium.org/
       authors: Taekjin Lee, Seongil Wi, Suyoung Lee, Sooel Son
       published: false
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
-      comments:
   - year: 2019
     list:
     - title: Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO
@@ -113,20 +111,17 @@ publications:
       authors: Sangsup Lee, Daejun Kim, Dongkwan Kim, Sooel Son, Yongdae Kim
       published: true
       booktitle: 13th USENIX Workshop on Offensive Technologies (WOOT 2019)
-      comments:
     - title: An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning
       link: https://drive.google.com/file/d/1rKlUkLMXmG1i0y9BqxFKf11lqeXVlyqJ/view
       authors: Sunnyeo Park, Dohyeok Kim, Sooel Son
       published: true
       booktitle: 14th ACM ASIA Conference on Computer and Communications Security (ASIACCS 2019)
-      comments:
-        - '[<a href="https://github.com/WSP-LAB/CRScope">GitHub Repo.</a>]'
+      code: https://github.com/WSP-LAB/CRScope
     - title: "Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
       link: https://drive.google.com/file/d/15QpktkCeJcv1vKzW_K8I6KRYF7j1dZjV/view
       authors: Changhoon Yoon, Kwanwoo Kim, Yongdae Kim, Seungwon Shin, Sooel Son
       published: true
       booktitle: "The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019) [oral presentation]"
-      comments:
     - title: "Hidden Figures: Comparative Latency Analysis of Cellular Networks with Fine-grained State Machine Models"
       link: https://drive.google.com/file/d/1PATYzbR2A5VAN_M6x-VwyQXizeQr4zyx/view
       authors: Sangwook Bae, Mincheol Son, Sooel Son, Yongdae Kim
@@ -144,8 +139,8 @@ publications:
       authors: Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, Sooel Son
       published: true
       booktitle: 25th ACM Conference on Computer and Communications Security (CCS 2018)
+      code: https://github.com/spostman/ppp-ccs2018
       comments:
-        - '[<a href="https://github.com/spostman/ppp-ccs2018/raw/master/paper/ppp-ccs2018.pdf">Paper</a>], [<a href="https://github.com/spostman/ppp-ccs2018">GitHub Repo.</a>]'
         - "There is an error in our paper in the proceedings: Safari 11.1 is NOT vulnerable to the history sniffing attack via cache."
   - year: "~ 2017"
     list:
@@ -154,58 +149,48 @@ publications:
       authors: Sooel Son, Daehyeok Kim, Vitaly Shmatikov
       published: true
       booktitle: 23rd Network & Distributed System Security Symposium (NDSS 2016)
-      comments:
-        - <a href="https://www.mediapost.com/publications/article/265783/mobile-ads-can-infer-users-medication-dating-pre.html">Media coverage</a>
+      media: https://www.mediapost.com/publications/article/265783/mobile-ads-can-infer-users-medication-dating-pre.html
     - title: "Toward better server-side Web security"
       link: https://repositories.lib.utexas.edu/handle/2152/24821
       authors: Sooel Son
       published: true
       booktitle: UTCS Dissertation (2014)
-      comments:
     - title: "Diglossia: Detecting Code Injection Attacks with Precision and Efficiency"
       link: http://www.cs.utexas.edu/~shmat/shmat_ccs13.pdf
       authors: Sooel Son, Kathryn S McKinley, Vitaly Shmatikov
       published: true
       booktitle: 20th ACM Conference on Computer and Communications Security (CCS 2013)
-      comments:
     - title: Model Checking Invariant Security Properties in OpenFlow
       link: http://www.csl.sri.com/users/vinod/papers/flover.pdf
       authors: Sooel Son, Seungwon Shin, Vinod Yegneswaran, Phil Porras, and Guofei Gu
       published: true
       booktitle: IEEE International Conference on Communications (ICC 2013)
-      comments:
     - title: "The Postman Always Rings Twice: Attacking and Defending postMessage in HTML5 Websites"
       link: http://www.cs.utexas.edu/~shmat/shmat_ndss13postman.pdf
       authors: Sooel Son, Vitaly Shmatikov
       published: true
       booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013)
-      comments:
-        - <b>Best student paper award</b>
+      comments: <b>Best student paper award</b>
     - title: "Fix Me Up: Repairing Access-Control Bugs in Web Applications"
       link: http://www.cs.utexas.edu/~shmat/shmat_ndss13fixmeup.pdf
       authors: Sooel Son, Kathryn S McKinley, Vitaly Shmatikov
       published: true
       booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013)
-      comments:
     - title: "RoleCast: Finding Missing Security Checks When You Do Not Know What Checks Are"
       link: http://www.cs.utexas.edu/~shmat/shmat_oopsla11.pdf
       authors: Sooel Son, Kathryn S McKinley, Vitaly Shmatikov
       published: true
       booktitle: ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2011)
-      comments:
     - title: "SAFERPHP: Finding Semantic Vulnerabilities in PHP Applications"
       link: http://www.cs.utexas.edu/~shmat/shmat_plas11.pdf
       authors: Sooel Son, Vitaly Shmatikov
       published: true
       booktitle: ACM SIGPLAN 6th Workshop on Programming Languages and Analysis for Security at PLDI2011 (PLAS 2011)
-      comments:
     - title: "The Hitckhiker's Guide to DNS Cache Poisoning"
       link: http://www.cs.utexas.edu/~samuel/paper/dns-securecomm2010.pdf
       authors: Sooel Son, Vitaly Shmatikov
       published: true
       booktitle: 6th International ICST Conference on Security and Privacy in Communication Networks (SecureCOMM 2010)
-      comments:
-        - <a href="http://www.cs.utexas.edu/~samuel/dnspaper/DNS_BIND">ProVerif model for BIND</a>, <a href="http://www.cs.utexas.edu/~samuel/dnspaper/DNS_Unbound">ProVerif model for Unbound</a>
 
 teaching:
   - name: Machine Learning Application Trends in Information Security

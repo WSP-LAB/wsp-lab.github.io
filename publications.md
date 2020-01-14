@@ -11,12 +11,20 @@ layout: default
     <ul>
       <li>{{ item.authors }}.</li>
       <li>{{ item.booktitle }}</li>
-      {% if item.published == true %}
-      <li>[<a href="{{ item.link }}">paper</a>]</li>
-      {% endif %}
       {% for comment in item.comments %}
-        <li>{{ comment }}</li>
+      <li>{{ comment }}</li>
       {% endfor %}
+      {% if item.published == true %}
+      <li>
+        [<a href="{{ item.link }}">paper</a>]
+        {% if item.code %}
+        [<a href="{{ item.code }}">code</a>]
+        {% endif %}
+        {% if item.media %}
+        [<a href="{{ item.media }}">media</a>]
+        {% endif %}
+      </li>
+      {% endif %}
     </ul>
   </li>
   <br>
