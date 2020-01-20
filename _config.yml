@@ -101,14 +101,14 @@ publications:
       code: https://github.com/WSP-LAB/Montage
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
       link: https://www.ndss-symposium.org/
-      authors: Taekjin Lee, Seongil Wi, Suyoung Lee, and Sooel Son
+      authors: Taekjin Lee, Seongil Wi (co-first author), Suyoung Lee, and Sooel Son
       published: false
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
   - year: 2019
     list:
     - title: Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO
       link: https://drive.google.com/file/d/1UzYFCnbYEFT2olpX7OwITxEqedtLthMm/view?usp=sharing
-      authors: Sangsup Lee, Daejun Kim, Dongkwan Kim, Sooel Son, and Yongdae Kim
+      authors: Sangsup Lee, Daejun Kim (co-first author), Dongkwan Kim, Sooel Son, and Yongdae Kim
       published: true
       booktitle: 13th USENIX Workshop on Offensive Technologies (WOOT 2019)
     - title: An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning
