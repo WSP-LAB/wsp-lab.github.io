@@ -10,10 +10,10 @@ of WSP lab is to find and implement novel ideas to make software services more
 secure and private. Our research interests include the following areas:
 - General topics in Web security/privacy
 - Static and dynamic analysis in finding vulnerabilities
-- Side-channel attack
-- Web authentication
 - Machine learning application in security
 - Security of machine learning models
+- Side-channel attack
+- Web authentication
 
 ## Representative Works
 <div class="posts">
