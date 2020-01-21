@@ -3,12 +3,17 @@ layout: default
 ---
 
 ## Research Area
-WSP Lab(Web Security & Privacy Lab) has a vision, `Be more secure on the Web`, and they are working with the goal of detecting vulnerabilities and measuring privacy violations occurring on the Web.
-Our research area includes:
-- Detection web service vulnerabilities through dynamic/static analysis
-- Review of a functionality security on a web browser
-- Discovery of security vulnerabilities with machine learning
-- Detection and analysis of service abusing in web/mobile service
+Web Security & Privacy (WSP) Lab looks at security and privacy shortcomings in
+complex software services including Web applications. Building automatic tools
+for finding such shortcomings is the main research goal of our lab. The vision
+of WSP lab is to find and implement novel ideas to make software services more
+secure and private. Our research interests include the following areas:
+- General topics in Web security/privacy
+- Static and dynamic analysis in finding vulnerabilities
+- Side-channel attack
+- Web authentication
+- Machine learning application in security
+- Security of machine learning models
 
 ## Representative Works
 <div class="posts">
