@@ -33,7 +33,7 @@ layout: default
 
 {% if site.people_phd %}
 ---
-## Ph.D Students
+## Ph.D. Students
 {% for person in site.people_phd %}
 {% assign mod3 = forloop.index | modulo: 3 %}
 {% if mod3 == 1 %}
