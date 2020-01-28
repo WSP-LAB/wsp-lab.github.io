@@ -44,15 +44,15 @@ people_prof:
   homepage: https://sites.google.com/site/ssonkaist/home
 
 people_phd:
+  - name: Joongyum Kim
+    photo:
+    homepage:
   - name: Seongil Wi
     photo: /images/seongil.jpg
     homepage: https://seongil-wi.github.io/
   - name: Suyoung Lee
     photo:
     homepage: https://leeswimming.com/
-  - name: Joongyum Kim
-    photo:
-    homepage:
 
 
 people_master:
