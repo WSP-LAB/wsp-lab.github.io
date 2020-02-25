@@ -93,13 +93,13 @@ publications:
   - year: 2020
     list:
     - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
-      link: https://leeswimming.com/papers/lee-sec20.pdf
+      link: https://wsp-lab.github.io/papers/lee-montage-sec20.pdf
       authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, and Sooel Son
       published: true
       booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
       code: https://github.com/WSP-LAB/Montage
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
-      link: https://www.ndss-symposium.org/wp-content/uploads/2020/02/23126.pdf
+      link: https://wsp-lab.github.io/papers/lee-fuse-ndss20.pdf
       authors: Taekjin Lee, Seongil Wi (co-first author), Suyoung Lee, and Sooel Son
       published: true
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
@@ -107,35 +107,35 @@ publications:
   - year: 2019
     list:
     - title: Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO
-      link: https://drive.google.com/file/d/1UzYFCnbYEFT2olpX7OwITxEqedtLthMm/view?usp=sharing
+      link: https://wsp-lab.github.io/papers/lee-eos-woot19.pdf
       authors: Sangsup Lee, Daejun Kim (co-first author), Dongkwan Kim, Sooel Son, and Yongdae Kim
       published: true
       booktitle: 13th USENIX Workshop on Offensive Technologies (WOOT 2019)
     - title: An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning
-      link: https://drive.google.com/file/d/1rKlUkLMXmG1i0y9BqxFKf11lqeXVlyqJ/view
+      link: https://wsp-lab.github.io/papers/park-crscope-asiaccs19.pdf
       authors: Sunnyeo Park, Dohyeok Kim, and Sooel Son
       published: true
       booktitle: 14th ACM ASIA Conference on Computer and Communications Security (ASIACCS 2019)
       code: https://github.com/WSP-LAB/CRScope
     - title: "Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
-      link: https://drive.google.com/file/d/15QpktkCeJcv1vKzW_K8I6KRYF7j1dZjV/view
+      link: https://wsp-lab.github.io/papers/yoon-www19.pdf
       authors: Changhoon Yoon, Kwanwoo Kim, Yongdae Kim, Seungwon Shin, and Sooel Son
       published: true
       booktitle: "The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019) [oral presentation]"
     - title: "Hidden Figures: Comparative Latency Analysis of Cellular Networks with Fine-grained State Machine Models"
-      link: https://drive.google.com/file/d/1PATYzbR2A5VAN_M6x-VwyQXizeQr4zyx/view
+      link: https://wsp-lab.github.io/papers/bae-hiddenfigure-hotmobile19.pdf
       authors: Sangwook Bae, Mincheol Son, Sooel Son, and Yongdae Kim
       booktitle: 20th International Workshop on Mobile Computing Systems and Applications (HOTMOBILE 2019)
       published: true
     - title: "Cybercriminal Minds: An Investigative Study of Cryptocurrency Abuses in the Dark Web"
-      link: https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_09-1_Lee_paper.pdf
+      link: https://wsp-lab.github.io/papers/lee-mfscope-ndss19.pdf
       authors: Seunghyeon Lee, Changhoon Yoon, Heedo Kang, Yeonkeun Kim, Yongdae Kim, Dongsu Han, Sooel Son, and Seungwon Shin
       published: true
       booktitle: 26th Network & Distributed System Security Symposium (NDSS 2019)
   - year: 2018
     list:
     - title: "Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications"
-      link: https://drive.google.com/file/d/1kDc4fnD4eZSuCCYqnw8ghGtm71p4Sq4w/view
+      link: https://wsp-lab.github.io/papers/son-ppp-ccs18.pdf
       authors: Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, and Sooel Son
       published: true
       booktitle: 25th ACM Conference on Computer and Communications Security (CCS 2018)
