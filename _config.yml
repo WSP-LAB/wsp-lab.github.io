@@ -99,7 +99,7 @@ publications:
       booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
       code: https://github.com/WSP-LAB/Montage
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
-      link: https://www.ndss-symposium.org/wp-content/uploads/2020/02/23126.pdf
+      link: https://github.com/WSP-LAB/wsp-lab.github.io//papers/son-fuse-ndss20.pdf
       authors: Taekjin Lee, Seongil Wi (co-first author), Suyoung Lee, and Sooel Son
       published: true
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
