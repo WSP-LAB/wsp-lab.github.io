@@ -53,12 +53,11 @@ people_phd:
   - name: Suyoung Lee
     photo:
     homepage: https://leeswimming.com/
-
-
-people_master:
   - name: Sunnyeo Park
     photo:
     homepage:
+
+people_master:
   - name: Hyuntae Kim
     photo:
     homepage:
@@ -68,6 +67,15 @@ people_master:
   - name: Daejun Kim ♔
     photo: /images/reset.png
     homepage: https://facebook.com/reset.test
+  - name: Soyoung Lee
+    photo:
+    homepage:
+  - name: Dahun Lee
+    photo:
+    homepage:
+  - name: Wonho Song
+    photo:
+    homepage:
 
 people_intern:
   - name: Soyoung Lee
