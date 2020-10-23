@@ -93,6 +93,12 @@ people_alumni:
     work: Naver, South Korea
 
 publications:
+  - year: 2021
+    list:
+    - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
+      authors: Joongyum Kim, Junghwan Park, and Sooel Son
+      published: false
+      booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021) 
   - year: 2020
     list:
     - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
