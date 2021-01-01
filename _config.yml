@@ -105,6 +105,11 @@ publications:
       booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021) 
   - year: 2020
     list:
+    - title: "Lumos: Improving Smart Home IoT Visibility and Interoperability Through Analyzing Mobile Apps"
+      link: https://wsp-lab.github.io/papers/kim-lumos-icnp20.pdf
+      authors: Jeongmin Kim, Steven Y. Ko, Sooel Son, and Dongsu Han
+      published: true
+      booktitle: 28th IEEE International Conference on Network Protocols (ICNP 2020)
     - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
       link: https://wsp-lab.github.io/papers/lee-montage-sec20.pdf
       authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, and Sooel Son
