@@ -64,7 +64,7 @@ people_master:
   - name: Hyunju Lee
     photo:
     homepage:
-  - name: Daejun Kim ♔
+  - name: Daejun Kim
     photo: /images/reset.png
     homepage: https://facebook.com/reset.test
   - name: Soyoung Lee
@@ -96,11 +96,11 @@ publications:
   - year: 2021
     list:
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
-      authors: Hyunjoo Lee, Jiyeon Lee (Co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
+      authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
       published: false
       booktitle: 21st USENIX Security Symposium (USENIX Security 2021) 
     - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
-      authors: Joongyum Kim, Junghwan Park, and Sooel Son
+      authors: Joongyum Kim, Junghwan Park (co-leading author), and Sooel Son
       published: false
       booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021) 
   - year: 2020
@@ -118,7 +118,7 @@ publications:
       code: https://github.com/WSP-LAB/Montage
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
       link: https://wsp-lab.github.io/papers/lee-fuse-ndss20.pdf
-      authors: Taekjin Lee, Seongil Wi (co-first author), Suyoung Lee, and Sooel Son
+      authors: Taekjin Lee, Seongil Wi (co-leading author), Suyoung Lee, and Sooel Son
       published: true
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
       code: https://github.com/WSP-LAB/FUSE
@@ -126,7 +126,7 @@ publications:
     list:
     - title: Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO
       link: https://wsp-lab.github.io/papers/lee-eos-woot19.pdf
-      authors: Sangsup Lee, Daejun Kim (co-first author), Dongkwan Kim, Sooel Son, and Yongdae Kim
+      authors: Sangsup Lee, Daejun Kim (co-leading author), Dongkwan Kim, Sooel Son, and Yongdae Kim
       published: true
       booktitle: 13th USENIX Workshop on Offensive Technologies (WOOT 2019)
     - title: An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning
