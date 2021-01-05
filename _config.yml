@@ -64,9 +64,6 @@ people_master:
   - name: Hyunju Lee
     photo:
     homepage:
-  - name: Daejun Kim
-    photo: /images/reset.png
-    homepage: https://facebook.com/reset.test
   - name: Soyoung Lee
     photo:
     homepage:
@@ -91,6 +88,9 @@ people_alumni:
     homepage: https://pagez.kr/
     degree: Master
     work: Naver, South Korea
+  - name: Daejun Kim
+    homepage: https://facebook.com/reset.test
+    work: Theori, South Korea
 
 publications:
   - year: 2021
