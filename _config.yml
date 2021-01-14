@@ -51,7 +51,7 @@ people_phd:
     photo: /images/seongil.jpg
     homepage: https://seongil-wi.github.io/
   - name: Suyoung Lee
-    photo:
+    photo: /images/swimming.png
     homepage: https://leeswimming.com/
   - name: Sunnyeo Park
     photo:
@@ -71,7 +71,7 @@ people_master:
     photo:
     homepage:
   - name: Wonho Song
-    photo:
+    photo: /images/wonho.jpg
     homepage:
 
 people_researcher:
