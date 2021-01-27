@@ -45,7 +45,7 @@ people_prof:
 
 people_phd:
   - name: Joongyum Kim
-    photo:
+    photo: /images/joongyum.png
     homepage:
   - name: Seongil Wi
     photo: /images/seongil.jpg
@@ -54,7 +54,7 @@ people_phd:
     photo: /images/swimming.png
     homepage: https://leeswimming.com/
   - name: Sunnyeo Park
-    photo:
+    photo: /images/sunnyeo.png
     homepage:
 
 people_master:
@@ -65,7 +65,7 @@ people_master:
     photo:
     homepage:
   - name: Soyoung Lee
-    photo:
+    photo: /images/soyoung.png
     homepage:
   - name: Dahun Lee
     photo:
