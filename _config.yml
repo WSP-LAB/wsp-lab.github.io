@@ -58,12 +58,6 @@ people_phd:
     homepage:
 
 people_master:
-  - name: Hyuntae Kim
-    photo:
-    homepage:
-  - name: Hyunjoo Lee
-    photo:
-    homepage:
   - name: Soyoung Lee
     photo: /images/soyoung.jpg
     homepage:
@@ -92,6 +86,14 @@ people_alumni:
     homepage: https://facebook.com/reset.test
     degree: Master
     work: Theori, South Korea
+  - name: Hyuntae Kim
+    homepage:
+    degree: Master
+    work:
+  - name: Hyunjoo Lee
+    homepage:
+    degree: Master
+    work:
 
 publications:
   - year: 2021
@@ -101,8 +103,9 @@ publications:
       published: false
       booktitle: 21st USENIX Security Symposium (USENIX Security 2021) 
     - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
+      link: https://wsp-lab.github.io/papers/kim-fraud_detective-ndss21.pdf
       authors: Joongyum Kim, Junghwan Park (co-leading author), and Sooel Son
-      published: false
+      published: true
       booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021) 
   - year: 2020
     list:
