@@ -98,6 +98,10 @@ people_alumni:
 publications:
   - year: 2021
     list:
+    - title: "Security Analysis on Practices of Certificate Authorities in the HTTPS Phishing Ecosystem"
+      authors: Doowon Kim, Haehyun Cho, Yonghwi Kwon, Adam Oest, Adam Doupe, Sooel Son, Gail-Joon Ahn, and Tudor Dumitras
+      published: false
+      booktitle: 16th ACM ASIA Conference on Computer and Communications Security (ASIACCS 2021)
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
       authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
       published: false
