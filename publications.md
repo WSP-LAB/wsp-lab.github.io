@@ -9,7 +9,9 @@ layout: default
   <li>
     <strong>
       {% if item.toptier_security == true %}
-      [<span class="glyphicon glyphicon-asterisk"></span>Security top-tier]
+      <p style="color:#0b5394;">[*Security Top-tier]</p>
+      {% elsif item.toptier_cs == true %}
+      <p style="color:#0b5394;">[*CS Top-tier]</p>
       {% endif %}
       {{item.title}}{% if item.published == false %} (to appear){% endif %}
     </strong>
