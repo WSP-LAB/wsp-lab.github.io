@@ -2,6 +2,9 @@
 layout: default
 ---
 ## Publications
+ 4 Top Security Conferences: S&P (Oakland), ACM CCS, USENIX Security, NDSS
+ Other Published CS Top Conferences: WWW, PLDI, OOPSLA
+ 
 {% for pub_group in site.publications %}
 <h3>{{ pub_group.year }}</h3>
 <ul>
