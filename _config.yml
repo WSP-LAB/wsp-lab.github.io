@@ -95,6 +95,13 @@ people_alumni:
     degree: Master
     work:
 
+news:
+  list:
+  - date: Feb, 2021
+    comments: A paper accepted in ASIACCS'21!
+  - date: Dec, 2020
+    comments: A paper accepted in USENIX Security'21!
+
 publications:
   - year: 2021
     list:
