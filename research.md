@@ -8,7 +8,7 @@ complex software services including Web applications. Building automatic tools
 for finding such shortcomings is the main research goal of our lab. The vision
 of WSP lab is to find and implement novel ideas to make software services more
 secure and private. Our research interests include the following areas:
-- General topics in Web security/privacy
+- Web security/privacy
 - Static and dynamic analysis in finding vulnerabilities
 - Applying machine learning to security
 - Security of machine learning models
