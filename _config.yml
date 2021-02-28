@@ -105,10 +105,12 @@ publications:
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
       authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
       published: false
+      toptier_security: true
       booktitle: 21st USENIX Security Symposium (USENIX Security 2021) [Top-tier CS conference]
     - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
       link: https://wsp-lab.github.io/papers/kim-fraud_detective-ndss21.pdf
       authors: Joongyum Kim, Junghwan Park (co-leading author), and Sooel Son
+      toptier_security: true
       published: true
       booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021) [Top-tier CS conference]
   - year: 2020
