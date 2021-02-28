@@ -100,7 +100,7 @@ news:
   - date: Feb, 2021
     comments: A paper accepted in ASIACCS'21!
   - date: Dec, 2020
-    comments: A paper accepted in USENIX Security'21!
+    comments: A paper accepted in <strong>USENIX Security'21</strong>!
 
 publications:
   - year: 2021
