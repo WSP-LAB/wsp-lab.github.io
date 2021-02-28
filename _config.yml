@@ -105,7 +105,7 @@ publications:
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
       authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
       published: false
-      booktitle: 21st USENIX Security Symposium (USENIX Security 2021)[Top-tier CS conference]
+      booktitle: 21st USENIX Security Symposium (USENIX Security 2021) [Top-tier CS conference]
     - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
       link: https://wsp-lab.github.io/papers/kim-fraud_detective-ndss21.pdf
       authors: Joongyum Kim, Junghwan Park (co-leading author), and Sooel Son
@@ -147,7 +147,7 @@ publications:
       link: https://wsp-lab.github.io/papers/yoon-www19.pdf
       authors: Changhoon Yoon, Kwanwoo Kim, Yongdae Kim, Seungwon Shin, and Sooel Son
       published: true
-      booktitle: "The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019) [oral presentation]"
+      booktitle: The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019) [oral presentation] [Top-tier CS conference]
     - title: "Hidden Figures: Comparative Latency Analysis of Cellular Networks with Fine-grained State Machine Models"
       link: https://wsp-lab.github.io/papers/bae-hiddenfigure-hotmobile19.pdf
       authors: Sangwook Bae, Mincheol Son, Sooel Son, and Yongdae Kim
