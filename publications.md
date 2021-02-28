@@ -2,8 +2,8 @@
 layout: default
 ---
 ## Publications
- <p><font style="color:#0b5394;">4 Top-tier Security Conferences:</font> S&P (Oakland), ACM CCS, USENIX Security, NDSS </p>
- <p><font style="color:#0b5394;">Other Published CS Top-tier Conferences:</font> WWW, PLDI, OOPSLA </p>
+ <p><font style="color:#0b5394;"><strong>[*Security]</strong> Security Top Conferences:</font> S&P (Oakland), ACM CCS, USENIX Security, NDSS </p>
+ <p><font style="color:#0b5394;"><strong>[*CS]</strong> Published CS Top Conferences:</font> WWW, PLDI, OOPSLA </p>
  
 {% for pub_group in site.publications %}
 <h3>{{ pub_group.year }}</h3>
@@ -12,9 +12,9 @@ layout: default
   <li>
     <strong>
       {% if item.toptier_security == true %}
-      <font style="color:#0b5394;">[*Security top-tier] </font>
+      <font style="color:#0b5394;">[*Security] </font>
       {% elsif item.toptier_cs == true %}
-      <font style="color:#0b5394;">[*CS top-tier] </font> 
+      <font style="color:#0b5394;">[*CS] </font> 
       {% endif %}
       {{item.title}}{% if item.published == false %} (to appear){% endif %}
     </strong>
