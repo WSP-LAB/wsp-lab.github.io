@@ -2,8 +2,8 @@
 layout: default
 ---
 ## Publications
- 4 Top Security Conferences: S&P (Oakland), ACM CCS, USENIX Security, NDSS
- Other Published CS Top Conferences: WWW, PLDI, OOPSLA
+ <p><font style="color:#0b5394;">4 Top-tier Security Conferences:</font> S&P (Oakland), ACM CCS, USENIX Security, NDSS </p>
+ <p><font style="color:#0b5394;">Other Published CS Top-tier Conferences:</font> WWW, PLDI, OOPSLA </p>
  
 {% for pub_group in site.publications %}
 <h3>{{ pub_group.year }}</h3>
