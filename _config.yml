@@ -106,13 +106,13 @@ publications:
       authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
       published: false
       toptier_security: true
-      booktitle: 21st USENIX Security Symposium (USENIX Security 2021) [Top-tier CS conference]
+      booktitle: 21st USENIX Security Symposium (USENIX Security 2021)
     - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
       link: https://wsp-lab.github.io/papers/kim-fraud_detective-ndss21.pdf
       authors: Joongyum Kim, Junghwan Park (co-leading author), and Sooel Son
       toptier_security: true
       published: true
-      booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021) [Top-tier CS conference]
+      booktitle: 28th Network & Distributed System Security Symposium (NDSS 2021)
   - year: 2020
     list:
     - title: "Lumos: Improving Smart Home IoT Visibility and Interoperability Through Analyzing Mobile Apps"
@@ -125,14 +125,14 @@ publications:
       authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, and Sooel Son
       toptier_security: true      
       published: true
-      booktitle: 20th USENIX Security Symposium (USENIX Security 2020) [Top-tier CS conference]
+      booktitle: 20th USENIX Security Symposium (USENIX Security 2020)
       code: https://github.com/WSP-LAB/Montage
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
       link: https://wsp-lab.github.io/papers/lee-fuse-ndss20.pdf
       authors: Taekjin Lee, Seongil Wi (co-leading author), Suyoung Lee, and Sooel Son
       toptier_security: true
       published: true
-      booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020) [Top-tier CS conference]
+      booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020)
       code: https://github.com/WSP-LAB/FUSE
   - year: 2019
     list:
@@ -152,7 +152,7 @@ publications:
       authors: Changhoon Yoon, Kwanwoo Kim, Yongdae Kim, Seungwon Shin, and Sooel Son
       toptier_cs: true
       published: true
-      booktitle: "The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019) [CS Top-tier conference]"
+      booktitle: "The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019)"
     - title: "Hidden Figures: Comparative Latency Analysis of Cellular Networks with Fine-grained State Machine Models"
       link: https://wsp-lab.github.io/papers/bae-hiddenfigure-hotmobile19.pdf
       authors: Sangwook Bae, Mincheol Son, Sooel Son, and Yongdae Kim
@@ -163,7 +163,7 @@ publications:
       authors: Seunghyeon Lee, Changhoon Yoon, Heedo Kang, Yeonkeun Kim, Yongdae Kim, Dongsu Han, Sooel Son, and Seungwon Shin
       toptier_security: true
       published: true
-      booktitle: 26th Network & Distributed System Security Symposium (NDSS 2019) [Top-tier CS conference]
+      booktitle: 26th Network & Distributed System Security Symposium (NDSS 2019)
   - year: 2018
     list:
     - title: "Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications"
@@ -194,7 +194,7 @@ publications:
       authors: Sooel Son, Kathryn S McKinley, and Vitaly Shmatikov
       toptier_security: true
       published: true
-      booktitle: 20th ACM Conference on Computer and Communications Security (CCS 2013) [Top-tier CS conference]
+      booktitle: 20th ACM Conference on Computer and Communications Security (CCS 2013)
     - title: Model Checking Invariant Security Properties in OpenFlow
       link: http://www.csl.sri.com/users/vinod/papers/flover.pdf
       authors: Sooel Son, Seungwon Shin, Vinod Yegneswaran, Phil Porras, and Guofei Gu
@@ -205,20 +205,20 @@ publications:
       authors: Sooel Son and Vitaly Shmatikov
       published: true
       toptier_security: true
-      booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013) [Top-tier CS conference]
+      booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013)
       comments: <b>Best student paper award</b>
     - title: "Fix Me Up: Repairing Access-Control Bugs in Web Applications"
       link: http://www.cs.utexas.edu/~shmat/shmat_ndss13fixmeup.pdf
       authors: Sooel Son, Kathryn S McKinley, and Vitaly Shmatikov
       toptier_security: true
       published: true
-      booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013) [Top-tier CS conference]
+      booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013)
     - title: "RoleCast: Finding Missing Security Checks When You Do Not Know What Checks Are"
       link: http://www.cs.utexas.edu/~shmat/shmat_oopsla11.pdf
       authors: Sooel Son, Kathryn S McKinley, and Vitaly Shmatikov
       toptier_cs: true
       published: true
-      booktitle: ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2011) [Top-tier CS conference]
+      booktitle: ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2011)
     - title: "SAFERPHP: Finding Semantic Vulnerabilities in PHP Applications"
       link: http://www.cs.utexas.edu/~shmat/shmat_plas11.pdf
       authors: Sooel Son and Vitaly Shmatikov
