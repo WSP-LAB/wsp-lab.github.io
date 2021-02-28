@@ -7,9 +7,10 @@ layout: default
 <ul>
 {% for item in pub_group.list %}
   <li>
-    glyphicon glyphicon-asterisk
     <strong>
-      [<span class="glyphicon glyphicon-asterisk"></span> Security Top-tier]
+      {% if item.toptier_security == true %}
+      [<span class="glyphicon glyphicon-asterisk"></span> Security top-tier]
+      {% endif %}
       {{item.title}}{% if item.published == false %} (to appear){% endif %}
     </strong>
     <ul>
