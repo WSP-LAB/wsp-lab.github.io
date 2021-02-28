@@ -9,7 +9,7 @@ layout: main
 <ul>
 {% for item in site.news.list %}
   <li>
-    <i class="fas fa-paper-plane"><strong>&nbsp;{{item.date}}</strong></i>:{{ item.comments }}
+    <i class="fas fa-paper-plane"><strong>&nbsp;{{item.date}}</strong></i>:&nbsp;{{ item.comments }}
   </li>
 {% endfor %}
 </ul>
