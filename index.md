@@ -6,9 +6,8 @@ layout: main
 </div>
 ---
 ## News
-{% for news in site.news %}
 <ul>
-{% for item in news.list %}
+{% for item in site.news.list %}
   <li>
     <strong>
       {{item.date}}
@@ -19,7 +18,7 @@ layout: main
 <br>
 {% endfor %}
 </ul>
-
+---
 <div style="text-align: center">
   <div class="row">
     <div class="col-md-3"></div>
@@ -28,5 +27,4 @@ layout: main
     </div>
     <div class="col-md-3"></div>
   </div>
-
 </div>
