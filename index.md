@@ -9,13 +9,8 @@ layout: main
 <ul>
 {% for item in site.news.list %}
   <li>
-    <strong>
-      {{item.date}}
-    </strong>
-    {{ comment }}
+    {{item.date}}: {{ comment }}
   </li>
-</ul>
-<br>
 {% endfor %}
 </ul>
 ---
