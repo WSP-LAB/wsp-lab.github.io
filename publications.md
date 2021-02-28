@@ -2,9 +2,10 @@
 layout: default
 ---
 ## Publications
- <p><font style="color:#0b5394;"><strong>[*Security]</strong> Security Top Conferences:</font> S&P (Oakland), ACM CCS, USENIX Security, NDSS </p>
- <p><font style="color:#0b5394;"><strong>[*CS]</strong> Published CS Top Conferences:</font> WWW, PLDI, OOPSLA </p>
- 
+<ul>
+ <li><font style="color:#0b5394;"><strong>[*Security] Security Top Conferences:</strong></font> S&P (Oakland), ACM CCS, USENIX Security, NDSS </li>
+ <li><font style="color:#0b5394;"><strong>[*CS] Published CS Top Conferences:</strong></font> WWW, PLDI, OOPSLA </li>
+</ul> 
 {% for pub_group in site.publications %}
 <h3>{{ pub_group.year }}</h3>
 <ul>
