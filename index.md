@@ -5,6 +5,21 @@ layout: main
 <img src="images/main_wordcloud.svg">
 </div>
 ---
+## News
+{% for news in site.news %}
+<ul>
+{% for item in news.list %}
+  <li>
+    <strong>
+      {{item.date}}
+    </strong>
+    {{ comment }}
+  </li>
+</ul>
+<br>
+{% endfor %}
+</ul>
+
 <div style="text-align: center">
   <div class="row">
     <div class="col-md-3"></div>
