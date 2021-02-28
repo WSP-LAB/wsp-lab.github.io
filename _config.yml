@@ -123,12 +123,14 @@ publications:
     - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
       link: https://wsp-lab.github.io/papers/lee-montage-sec20.pdf
       authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, and Sooel Son
+      toptier_security: true      
       published: true
       booktitle: 20th USENIX Security Symposium (USENIX Security 2020) [Top-tier CS conference]
       code: https://github.com/WSP-LAB/Montage
     - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
       link: https://wsp-lab.github.io/papers/lee-fuse-ndss20.pdf
       authors: Taekjin Lee, Seongil Wi (co-leading author), Suyoung Lee, and Sooel Son
+      toptier_security: true
       published: true
       booktitle: 27th Network & Distributed System Security Symposium (NDSS 2020) [Top-tier CS conference]
       code: https://github.com/WSP-LAB/FUSE
@@ -148,6 +150,7 @@ publications:
     - title: "Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
       link: https://wsp-lab.github.io/papers/yoon-www19.pdf
       authors: Changhoon Yoon, Kwanwoo Kim, Yongdae Kim, Seungwon Shin, and Sooel Son
+      toptier_cs: true
       published: true
       booktitle: "The Web Conference 2019: Security, Privacy, and Trust Research Track (WWW 2019) [CS Top-tier conference]"
     - title: "Hidden Figures: Comparative Latency Analysis of Cellular Networks with Fine-grained State Machine Models"
@@ -158,6 +161,7 @@ publications:
     - title: "Cybercriminal Minds: An Investigative Study of Cryptocurrency Abuses in the Dark Web"
       link: https://wsp-lab.github.io/papers/lee-mfscope-ndss19.pdf
       authors: Seunghyeon Lee, Changhoon Yoon, Heedo Kang, Yeonkeun Kim, Yongdae Kim, Dongsu Han, Sooel Son, and Seungwon Shin
+      toptier_security: true
       published: true
       booktitle: 26th Network & Distributed System Security Symposium (NDSS 2019) [Top-tier CS conference]
   - year: 2018
@@ -166,6 +170,7 @@ publications:
       link: https://wsp-lab.github.io/papers/son-ppp-ccs18.pdf
       authors: Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, and Sooel Son
       published: true
+      toptier_security: true
       booktitle: 25th ACM Conference on Computer and Communications Security (CCS 2018)
       code: https://github.com/spostman/ppp-ccs2018
       comments:
@@ -176,6 +181,7 @@ publications:
       link: https://www.cs.cornell.edu/~shmat/shmat_ndss16.pdf
       authors: Sooel Son, Daehyeok Kim, and Vitaly Shmatikov
       published: true
+      toptier_security: true
       booktitle: 23rd Network & Distributed System Security Symposium (NDSS 2016)
       media: https://www.mediapost.com/publications/article/265783/mobile-ads-can-infer-users-medication-dating-pre.html
     - title: "Toward better server-side Web security"
@@ -186,6 +192,7 @@ publications:
     - title: "Diglossia: Detecting Code Injection Attacks with Precision and Efficiency"
       link: http://www.cs.utexas.edu/~shmat/shmat_ccs13.pdf
       authors: Sooel Son, Kathryn S McKinley, and Vitaly Shmatikov
+      toptier_security: true
       published: true
       booktitle: 20th ACM Conference on Computer and Communications Security (CCS 2013) [Top-tier CS conference]
     - title: Model Checking Invariant Security Properties in OpenFlow
@@ -197,16 +204,19 @@ publications:
       link: http://www.cs.utexas.edu/~shmat/shmat_ndss13postman.pdf
       authors: Sooel Son and Vitaly Shmatikov
       published: true
+      toptier_security: true
       booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013) [Top-tier CS conference]
       comments: <b>Best student paper award</b>
     - title: "Fix Me Up: Repairing Access-Control Bugs in Web Applications"
       link: http://www.cs.utexas.edu/~shmat/shmat_ndss13fixmeup.pdf
       authors: Sooel Son, Kathryn S McKinley, and Vitaly Shmatikov
+      toptier_security: true
       published: true
       booktitle: 20th Network & Distributed System Security Symposium (NDSS 2013) [Top-tier CS conference]
     - title: "RoleCast: Finding Missing Security Checks When You Do Not Know What Checks Are"
       link: http://www.cs.utexas.edu/~shmat/shmat_oopsla11.pdf
       authors: Sooel Son, Kathryn S McKinley, and Vitaly Shmatikov
+      toptier_cs: true
       published: true
       booktitle: ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2011) [Top-tier CS conference]
     - title: "SAFERPHP: Finding Semantic Vulnerabilities in PHP Applications"
