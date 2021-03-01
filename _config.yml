@@ -25,7 +25,7 @@ footer-links:
 
 disqus:
 
-google_analytics:
+google_analytics: UA-62491243-6
 
 baseurl: ""
 permalink: /:title/
