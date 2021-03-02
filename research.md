@@ -28,6 +28,7 @@ Our research topics can be categorized into four research directions:
         <li>{{ title }}</li>
       {% endfor %}
       {% if item.contents %}
+      <li>{{ item.contents }}</li>
       <li>
         {% if item.media %}
           <a href="{{ item.media }}">[media]</a>
