@@ -24,7 +24,7 @@ Our research topics can be categorized into four research directions:
   
     <td width="40%" height = "0">
       <div style="height:100%">
-          <img src = "{{item.photo}}" height="100%">
+          <img src = "{{item.photo}}">
       </div>
     </td>
     
