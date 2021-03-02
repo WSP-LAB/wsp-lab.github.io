@@ -47,7 +47,7 @@ research:
 
   - subject: R2. Building tools for finding vulnerabilities in server/client-side web applications
     list:
-    - title: [NDSS'21] The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud
+    - title: [NDSS'21] The Abuser Inside Apps- Finding the Culprit Committing Mobile Ad Fraud
       content: The paper presents the design and implementation of FraudDetective, a dynamic testing frame- work that identifies ad fraud activities. FraudDetective computes a full stack trace from an observed ad fraud activity to a user event by connecting fragmented multiple stack traces, thus generating the causal relationships between user inputs and the observed fraudulent activity. We revised an Android Open Source Project (AOSP) to emit detected ad fraud activities along with their full stack traces, which help pinpoint the app modules responsible for the observed fraud activities. We evaluate FraudDetective on 48,172 apps from Google Play Store. FraudDetective reports that 74 apps are responsible for 34,453 ad fraud activities and find that 98.6% of the fraudulent behaviors originate from embedded third-party ad libraries.
       media: 
       photo: /images/1. Abuser.png
@@ -81,7 +81,7 @@ research:
       code: 
       summary: 
 
-    - title: [CCS'18] Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications 
+    - title: [CCS'18] Pride and Prejudice in Progressive Web Apps- Abusing Native App-like Features in Web Applications 
       content: Progressive Web App (PWA) is a new generation of Web application designed to provide native app-like browsing experiences even when a browser is offline. We conduct the first systematic study of the security and privacy aspects unique to PWAs. We identify security flaws in main browsers as well as design flaws in popular third-party push services, that exacerbate the phishing risk. We introduce a new side-channel attack that infers the victim’s history of visited PWAs. The proposed attack exploits the offline browsing feature of PWAs using a cache. We demonstrate a cryptocurrency mining attack which abuses service workers. Defenses and recommendations to mitigate the identified security and privacy risks are suggested with in-depth understanding. 
       media: 
       photo: /images/5. PPP.png
@@ -91,7 +91,7 @@ research:
 
   - subject: R4. Analyzing online scam/criminal activities  occurring on the Internet
     list:
-    - title: [WWW'19] Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services
+    - title: [WWW'19] Doppelgängers on the Dark Web- A Large-scale Assessment on Phishing Hidden Web Services
       content: We conducted an in-depth measurement study to demystify the prevalent phishing websites on the Dark Web. We analyzed the text content of 28,928 HTTP Tor hidden services hosting 21 million dark webpages and confirmed 901 phishing domains. We also discovered a trend on the Dark Web in which service providers perceive dark web domains as their service brands. This trend exacerbates the risk of phishing for their service users who remember only a partial Tor hidden service address. Our work facilitates a better understanding of the phishing risks on the Dark Web and encourages further research on establishing an authentic and reliable service on the Dark Web. 
       media: 
       photo: /images/6. Doppelgängers.png
