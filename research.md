@@ -36,41 +36,34 @@ Our research topics can be categorized into four research directions:
   <br>
     
   {% for item in article.list %}
-  <div class="row">
-  <tr width="100%">
+  <div style="width:30%; height:height:265px; float:left;">
     {% if item.photo %} 
-    <td width="40%">
       <img src = "{{item.photo}}" width="100%">
-    </td>
     {% endif %}
+  </div>
+  
+  <div style="width:65%; height:265px; float:right;">
   {% for title in item.title %}
-      <td>
       <strong><i>{{ title }}</i></strong>
     {% endfor %}
     {% if item.contents %}
       <li>{{ item.contents }}</li>
-      
+     {% endif %}      
     {% if item.media %}
       <a href="{{ item.media }}">[media]</a>
-     {% endif %}
-        {% if item.paper %}
-          <a href="{{ item.paper }}">[paper]</a>
-        {% endif %}
-        {% if item.code %}
-          <a href="{{ item.code }}">[code]</a>
-        {% endif %}
-        {% if item.summary %}
-          <a href="{{ item.summary }}">[summary]</a>
-          <br>
-        {% endif %}
-        <br>
-     </td>
-   </tr>    
-   </div>
-    
-
-  
-  {% endif %}
+    {% endif %}
+    {% if item.paper %}
+      <a href="{{ item.paper }}">[paper]</a>
+    {% endif %}
+    {% if item.code %}
+      <a href="{{ item.code }}">[code]</a>
+    {% endif %}
+    {% if item.summary %}
+      <a href="{{ item.summary }}">[summary]</a>
+      <br>
+    {% endif %}
+    <br>
+  </div>
   {% endfor %}
 
   
