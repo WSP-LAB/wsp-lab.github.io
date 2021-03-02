@@ -14,6 +14,14 @@ Our research topics can be categorized into four research directions:
 - R4. Analyzing online scam/criminal activities  occurring on the Internet
 
 ## Representative Works
+{% if site.research.photo %}
+  <div class="photo"
+      style="background:url({{site.research.photo}}) left no-repeat; background-size:contain;">
+
+{% endif %}
+
+
+<!--
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -23,10 +31,12 @@ Our research topics can be categorized into four research directions:
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
+-->
       <!--
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       -->
+<!--      
     </article>
   {% endfor %}
 </div>
+-->
