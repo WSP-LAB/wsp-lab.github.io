@@ -44,7 +44,7 @@ Our research topics can be categorized into four research directions:
     
   <div class="right">
     {% for title in item.title %}
-      <strong>{{ title }}</strong>
+      <strong><i>{{ title }}</i></strong>
     {% endfor %}
     {% if item.contents %}
       <li>{{ item.contents }}</li>
