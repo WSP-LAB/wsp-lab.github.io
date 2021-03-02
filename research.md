@@ -23,13 +23,12 @@ Our research topics can be categorized into four research directions:
     {% if item.photo %} 
   
     <td>
-      <!--
+
       <div class="photo"
            tabindex="-1"
            style="background:url({{item.photo}}) left no-repeat; background-size:contain;"> 
       </div>
-      -->
-      <img src = "{{item.photo}}">
+
     </td>
     
     {% endif %}
@@ -40,7 +39,7 @@ Our research topics can be categorized into four research directions:
       {% endfor %}
       {% if item.contents %}
       <li>{{ item.contents }}</li>
-      <li>
+      
         {% if item.media %}
           <a href="{{ item.media }}">[media]</a>
         {% endif %}
@@ -53,7 +52,7 @@ Our research topics can be categorized into four research directions:
         {% if item.summary %}
           <a href="{{ item.summary }}">[summary]</a>
         {% endif %}
-      </li>
+      
     
     </td>
   
