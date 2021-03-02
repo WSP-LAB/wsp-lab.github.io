@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -36,38 +37,37 @@ Our research topics can be categorized into four research directions:
   <br>
     
   {% for item in article.list %}
-      {% if item.photo %} 
-      
-      <img src = "{{item.photo}}">
-      
+  <div class="row">
+    {% if item.photo %} 
+      <img src = "{{item.photo}}" width="100%">
     {% endif %}
-  
-  
-  
   {% for title in item.title %}
-  <div style="width:65%; height:265px; float:right;">
       <strong><i>{{ title }}</i></strong>
     {% endfor %}
     {% if item.contents %}
       <li>{{ item.contents }}</li>
-     {% endif %}      
+      
     {% if item.media %}
       <a href="{{ item.media }}">[media]</a>
-    {% endif %}
-    {% if item.paper %}
-      <a href="{{ item.paper }}">[paper]</a>
-    {% endif %}
-    {% if item.code %}
-      <a href="{{ item.code }}">[code]</a>
-    {% endif %}
-    {% if item.summary %}
-      <a href="{{ item.summary }}">[summary]</a>
-      <br>
-    {% endif %}
-    <br>
-  </div>
-{% endfor %}
+     {% endif %}
+        {% if item.paper %}
+          <a href="{{ item.paper }}">[paper]</a>
+        {% endif %}
+        {% if item.code %}
+          <a href="{{ item.code }}">[code]</a>
+        {% endif %}
+        {% if item.summary %}
+          <a href="{{ item.summary }}">[summary]</a>
+          <br>
+        {% endif %}
+        <br>
+        
+   </div>
+    
+
   
+  {% endif %}
+  {% endfor %}
 
   
 {% if forloop.last == false %} <hr> {% endif %}
