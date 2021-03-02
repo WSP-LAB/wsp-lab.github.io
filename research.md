@@ -1,7 +1,17 @@
 ---
 layout: default
 ---
-
+<style>
+  table {
+    width: 100%;
+  }
+  td img{
+    width: 100%;
+    table-layout:fixed;
+  }
+  
+  }
+</style>
 
 ## Research Area
 Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
