@@ -42,8 +42,9 @@ Our research topics can be categorized into four research directions:
     {% endif %}
   </div>
   
-  <div style="width:65%; height:265px; float:right;">
+  
   {% for title in item.title %}
+  <div style="width:65%; height:265px; float:right;">
       <strong><i>{{ title }}</i></strong>
     {% endfor %}
     {% if item.contents %}
@@ -63,8 +64,9 @@ Our research topics can be categorized into four research directions:
       <br>
     {% endif %}
     <br>
-  {% endfor %}
   </div>
+  {% endfor %}
+  
 
   
 {% if forloop.last == false %} <hr> {% endif %}
