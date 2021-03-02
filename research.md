@@ -31,7 +31,7 @@ Our research topics can be categorized into four research directions:
     
     {% endif %}
     <td>
-    <ul>  
+    
       {% for title in item.title %}
         <strong>{{ title }}</strong>
       {% endfor %}
@@ -51,7 +51,7 @@ Our research topics can be categorized into four research directions:
           <a href="{{ item.summary }}">[summary]</a>
         {% endif %}
       </li>
-    </ul>
+    
     </td>
   </tr>
   {% endif %}
