@@ -16,11 +16,12 @@ Our research topics can be categorized into four research directions:
 ## Representative Works
 {% for article in site.research %}
   <h3> {{ article.subject }} </h3>
+  <ul>
   {% for item in article.list %}
     {% if item.photo %} 
       <div class="photo"
            style="background:url({{item.photo}}) left no-repeat; background-size:contain;">
-         </div>
+      </div>
     {% endif %}
     <ul>  
       {% for title in item.title %}
@@ -44,6 +45,7 @@ Our research topics can be categorized into four research directions:
     </ul>
   {% endif %}
   {% endfor %}
+  </ul>
 {% if forloop.last == false %} <hr> {% endif %}
 {% endfor %}      
 
