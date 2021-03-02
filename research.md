@@ -14,34 +14,34 @@ Our research topics can be categorized into four research directions:
 - R4. Analyzing online scam/criminal activities  occurring on the Internet
 
 ## Representative Works
-{% for item in site.research.photo %}
-{% if item.photo %}
-  <div class="photo"
-      style="background:url({{item.photo}}) left no-repeat; background-size:contain;">
-{% endif %}
-{% endfor %}
+{% for item in research.list %}
 
-<ul>
-  <li> {{item.subject}} </li>
-  {% for title in tiem.title %}
-  <li>{{ title }}</li>
-  {% endfor %}
-  {% if item.contents %}
-  <li>
-    {% if item.media %}
-    [<a href="{{ item.media }}">]media</a>]
-    {% endif %}
-    {% if item.paper %}
-    [<a href="{{ item.paper }}">]paper</a>]
-    {% endif %}
-    {% if item.code %}
-    [<a href="{{ item.code }}">]code</a>]
-    {% endif %}
-    {% if item.summary %}
-    [<a href="{{ item.summary }}">]summary</a>]
-    {% endif %}
-  </li>
-{% endif %}
+  {% if item.photo %}
+    <div class="photo"
+         style="background:url({{item.photo}}) left no-repeat; background-size:contain;">
+  {% endif %}
+  <ul>
+    <li> {{item.subject}} </li>
+    {% for title in tiem.title %}
+    <li>{{ title }}</li>
+    {% endfor %}
+    {% if item.contents %}
+    <li>
+      {% if item.media %}
+      [<a href="{{ item.media }}">]media</a>]
+      {% endif %}
+      {% if item.paper %}
+      [<a href="{{ item.paper }}">]paper</a>]
+      {% endif %}
+      {% if item.code %}
+      [<a href="{{ item.code }}">]code</a>]
+      {% endif %}
+      {% if item.summary %}
+      [<a href="{{ item.summary }}">]summary</a>]
+      {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
 
 <!--
 <div class="posts">
