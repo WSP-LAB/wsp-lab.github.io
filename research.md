@@ -3,7 +3,7 @@ layout: default
 ---
 <style>
   div.row {
-    width: 90%
+    width: 100%
     display: flex;
   }
   
@@ -13,7 +13,7 @@ layout: default
   }  
   
   div.left {
-    width: 40%;
+    width: 60%;
     float: right;
   }
 </style>
@@ -33,7 +33,7 @@ Our research topics can be categorized into four research directions:
 ## Representative Works
 {% for article in site.research %}
   <strong> {{ article.subject }} </strong>
-  
+  <br>
   <div class="row">
   {% for item in article.list %}
     {% if item.photo %} 
