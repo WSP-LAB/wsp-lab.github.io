@@ -19,6 +19,7 @@ Our research topics can be categorized into four research directions:
   <div class="photo"
       style="background:url({{item.photo}}) left no-repeat; background-size:contain;">
 {% endif %}
+{% endfor %}
 
 <ul>
   <li> {{item.subject}} </li>
