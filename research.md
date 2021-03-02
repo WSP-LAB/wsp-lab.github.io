@@ -1,17 +1,6 @@
 ---
 layout: default
 ---
-<style>
-  table {
-    width: 100%;
-  }
-  td img{
-    width: 100%;
-    table-layout:fixed;
-  }
-  
-  }
-</style>
 
 ## Research Area
 Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
@@ -32,8 +21,8 @@ Our research topics can be categorized into four research directions:
   {% for item in article.list %}
     {% if item.photo %} 
   
-    <td width="30%" height = "0">
-      <img src = "{{item.photo}}">
+    <td width="30%">
+      <img src = "{{item.photo}}" width="30%">
     
     </td>
     
