@@ -21,32 +21,30 @@ Our research topics can be categorized into four research directions:
       <div class="photo"
            style="background:url({{item.photo}}) left no-repeat; background-size:contain;">
     {% endif %}
-    <ul>
-      <li> {{item.subject}} </li>
-      {% for title in item.title %}
-      <li>{{ title }}</li>
-      {% endfor %}
-      {% if item.contents %}
-      <li>
-        {% if item.media %}
-        <a href="{{ item.media }}">[media]</a>
-        {% endif %}
-        {% if item.paper %}
-        <a href="{{ item.paper }}">[paper]</a>
-        {% endif %}
-        {% if item.code %}
-        <a href="{{ item.code }}">][code]</a>
-        {% endif %}
-        {% if item.summary %}
-        <a href="{{ item.summary }}">][summary]</a>
-        {% endif %}
-      </li>
-    </ul>
-    {% endif %}
+    <ul>  
+    {% for title in item.title %}
+    <li>{{ title }}</li>
+    {% endfor %}
+    {% if item.contents %}
+    <li>
+      {% if item.media %}
+      <a href="{{ item.media }}">[media]</a>
+      {% endif %}
+      {% if item.paper %}
+      <a href="{{ item.paper }}">[paper]</a>
+      {% endif %}
+      {% if item.code %}
+      <a href="{{ item.code }}">][code]</a>
+      {% endif %}
+      {% if item.summary %}
+      <a href="{{ item.summary }}">][summary]</a>
+      {% endif %}
+    </li>
+  </ul>
+  {% endif %}
   {% endfor %}
-<!-- {% if forloop.last == false %} <hr> {% endif %} -->
-{% endfor %}
-      
+{% if forloop.last == false %} <hr> {% endif %}
+{% endfor %}      
 
 <!--
 <div class="posts">
