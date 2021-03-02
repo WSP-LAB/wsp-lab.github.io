@@ -1,6 +1,23 @@
 ---
 layout: default
 ---
+<style>
+  div.row {
+    width: 100%
+    display: flex;
+  }
+  
+  div.left {
+    width: 40%;
+    float: left;
+  }  
+  
+  div.left {
+    width: 60%;
+    float: right;
+  }
+</style>
+
 
 ## Research Area
 Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
@@ -17,28 +34,24 @@ Our research topics can be categorized into four research directions:
 {% for article in site.research %}
   <strong> {{ article.subject }} </strong>
   
-  <tr width = "90%">
+  <div class="row">
   {% for item in article.list %}
     {% if item.photo %} 
-  
-    <td width="30%">
+      <div class="left">
       <img src = "{{item.photo}}" width="30%">
-    
-    </td>
-    
+      </div>
     {% endif %}
-    <td>
     
-      {% for title in item.title %}
-        <strong>{{ title }}</strong>
-      {% endfor %}
-      {% if item.contents %}
+  <div class="right">
+    {% for title in item.title %}
+      <strong>{{ title }}</strong>
+    {% endfor %}
+    {% if item.contents %}
       <li>{{ item.contents }}</li>
       <br>
-      
-        {% if item.media %}
-          <a href="{{ item.media }}">[media]</a>
-        {% endif %}
+    {% if item.media %}
+      <a href="{{ item.media }}">[media]</a>
+     {% endif %}
         {% if item.paper %}
           <a href="{{ item.paper }}">[paper]</a>
         {% endif %}
@@ -48,13 +61,13 @@ Our research topics can be categorized into four research directions:
         {% if item.summary %}
           <a href="{{ item.summary }}">[summary]</a>
         {% endif %}
-      
+   </div>
     
-    </td>
+
   
   {% endif %}
   {% endfor %}
-  </tr>
+
   
 {% if forloop.last == false %} <hr> {% endif %}
 {% endfor %}      
