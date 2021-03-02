@@ -15,11 +15,12 @@ Our research topics can be categorized into four research directions:
 
 ## Representative Works
 {% for article in site.research %}
-  <h3> {{ article.subject }} </h3>
+  <h3 align="left"> {{ article.subject }} </h3>
   <ul>
+  <tr>
   {% for item in article.list %}
     {% if item.photo %} 
-  <tr>
+  
     <td>
       <div class="photo"
            style="background:url({{item.photo}}) left no-repeat; background-size:contain;"> 
