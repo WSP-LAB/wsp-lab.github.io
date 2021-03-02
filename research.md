@@ -22,13 +22,10 @@ Our research topics can be categorized into four research directions:
   {% for item in article.list %}
     {% if item.photo %} 
   
-    <td>
-
-      <div class="photo"
-           tabindex="-1"
-           style="background:url({{item.photo}}) left no-repeat; background-size:contain;"> 
+    <td height = "0">
+      <div style="height:100%">
+          <img src = "{{item.photo}}" height="100%">
       </div>
-
     </td>
     
     {% endif %}
