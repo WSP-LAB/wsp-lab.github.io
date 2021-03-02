@@ -44,7 +44,7 @@ Our research topics can be categorized into four research directions:
     </ul>
     {% endif %}
   {% endfor %}
-{% if forloop.last == false %} <hr> {% endif %}
+<!-- {% if forloop.last == false %} <hr> {% endif %} -->
 {% endfor %}
       
 
