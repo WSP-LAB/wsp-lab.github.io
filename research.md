@@ -37,10 +37,14 @@ Our research topics can be categorized into four research directions:
     
   {% for item in article.list %}
   <div class="row">
+  <tr width="100%">
     {% if item.photo %} 
+    <td width="40%">
       <img src = "{{item.photo}}" width="100%">
+    </td>
     {% endif %}
   {% for title in item.title %}
+      <td>
       <strong><i>{{ title }}</i></strong>
     {% endfor %}
     {% if item.contents %}
@@ -60,6 +64,7 @@ Our research topics can be categorized into four research directions:
           <br>
         {% endif %}
         <br>
+     </td>
         
    </div>
     
