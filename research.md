@@ -34,6 +34,7 @@ Our research topics can be categorized into four research directions:
   {% for article in site.research %}
   <strong> {{ article.subject }} </strong>
   <br>
+  <% endfor %>
     
   {% for item in article.list %}
       {% if item.photo %} 
@@ -66,7 +67,7 @@ Our research topics can be categorized into four research directions:
     {% endif %}
     <br>
   </div>
-  {% endfor %}
+<!--  {% endfor %} -->
   
 
   
