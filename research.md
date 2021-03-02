@@ -18,7 +18,7 @@ Our research topics can be categorized into four research directions:
 {% for article in site.research %}
   <strong> {{ article.subject }} </strong>
   
-  <tr width = 90%>
+  <tr width = "90%">
   {% for item in article.list %}
     {% if item.photo %} 
   
