@@ -25,10 +25,10 @@ Our research topics can be categorized into four research directions:
     {% endif %}
     <ul>  
       {% for title in item.title %}
-        <li>{{ title }}</li>
+        <h4>{{ title }}</h4>
       {% endfor %}
       {% if item.contents %}
-      <h4>{{ item.contents }}</h4>
+      <li>{{ item.contents }}</li>
       <li>
         {% if item.media %}
           <a href="{{ item.media }}">[media]</a>
