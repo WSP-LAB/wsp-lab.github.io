@@ -34,10 +34,10 @@ Our research topics can be categorized into four research directions:
       <a href="{{ item.paper }}">[paper]</a>
       {% endif %}
       {% if item.code %}
-      <a href="{{ item.code }}">][code]</a>
+      <a href="{{ item.code }}">[code]</a>
       {% endif %}
       {% if item.summary %}
-      <a href="{{ item.summary }}">][summary]</a>
+      <a href="{{ item.summary }}">[summary]</a>
       {% endif %}
     </li>
   </ul>
