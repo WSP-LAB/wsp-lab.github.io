@@ -39,13 +39,13 @@ kramdown:
     css_class: 'highlight'
     
 research:
-  - subject: R1. Analyzing security/privacy risks in Machine Learning (ML) models
+  - subject: "R1. Analyzing security/privacy risks in Machine Learning (ML) models"
     list:
     - title: "Penetration Security Testing of ML Model Vulnerabilities and Defense  [IITP 전문연구실]"
       content: We investigate various security and privacy threats in recent machine learning models and implement tools that assess the robustness of given ML models by conducting penetration security testing. 
       media: https://www.google.com/url?q=https%3A%2F%2Fgsis.kaist.ac.kr%2Fboard%2Fview%3Fbbs_id%3Dnews%26bbs_sn%3D1076%26page%3D1%26skey%3D%26svalue%3D%26menu%3D107&sa=D&sntz=1&usg=AFQjCNH3fSIxxKxg3cgm4ZUKTxYdpsK2kA
 
-  - subject: R2. Building tools for finding vulnerabilities in server/client-side web applications
+  - subject: "R2. Building tools for finding vulnerabilities in server/client-side web applications"
     list:
     - title: "[NDSS'21] The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
       content: The paper presents the design and implementation of FraudDetective, a dynamic testing frame- work that identifies ad fraud activities. FraudDetective computes a full stack trace from an observed ad fraud activity to a user event by connecting fragmented multiple stack traces, thus generating the causal relationships between user inputs and the observed fraudulent activity. We revised an Android Open Source Project (AOSP) to emit detected ad fraud activities along with their full stack traces, which help pinpoint the app modules responsible for the observed fraud activities. We evaluate FraudDetective on 48,172 apps from Google Play Store. FraudDetective reports that 74 apps are responsible for 34,453 ad fraud activities and find that 98.6% of the fraudulent behaviors originate from embedded third-party ad libraries.
@@ -71,7 +71,7 @@ research:
       code: https://github.com/WSP-LAB/FUSE
       summary: https://gsis.kaist.ac.kr/board/view?bbs_id=research&bbs_sn=1045&page=1&skey=&svalue=&menu=183
    
-  - subject: R3. Finding security/privacy vulnerabilities in web services
+  - subject: "R3. Finding security/privacy vulnerabilities in web services"
     list:
     - title: "[USENIX WOOT'19] Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO"
       content: We investigate the design architecture of EOS.IO. Based on this investigation, we introduce four attacks whose root causes stem from the unique characteristics of EOS.IO, including intentionally slowing down the block creation time—which can disrupt the essential functions of its blockchain and incapacitate the entire EOS.IO system. We  also find that an adversary can partially freeze the execution of a target smart contract or maliciously consume all the resources of a target user with crafted requests. We report all the identified threats to the EOS.IO foundation, one of which is confirmed to be fatal. Finally, we discuss possible mitigations against the proposed attacks. 
@@ -89,7 +89,7 @@ research:
       code: https://github.com/spostman/ppp-ccs2018
       summary: 
 
-  - subject: R4. Analyzing online scam/criminal activities  occurring on the Internet
+  - subject: "R4. Analyzing online scam/criminal activities  occurring on the Internet"
     list:
     - title: "[WWW'19] Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
       content: We conducted an in-depth measurement study to demystify the prevalent phishing websites on the Dark Web. We analyzed the text content of 28,928 HTTP Tor hidden services hosting 21 million dark webpages and confirmed 901 phishing domains. We also discovered a trend on the Dark Web in which service providers perceive dark web domains as their service brands. This trend exacerbates the risk of phishing for their service users who remember only a partial Tor hidden service address. Our work facilitates a better understanding of the phishing risks on the Dark Web and encourages further research on establishing an authentic and reliable service on the Dark Web. 
