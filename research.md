@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 ## Research Area
 Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
 security and privacy. We envision making Internet services more secure and private
@@ -15,7 +16,7 @@ Our research topics can be categorized into four research directions:
 
 ## Representative Works
 {% for article in site.research %}
-  <h3 align="left"> {{ article.subject }} </h3>
+  <h3 style="text-align:left"> {{ article.subject }} </h3>
   <ul>
   <tr>
   {% for item in article.list %}
@@ -30,7 +31,7 @@ Our research topics can be categorized into four research directions:
     {% endif %}
     <ul>  
       {% for title in item.title %}
-        <h4 align="left">{{ title }}</h4>
+        <h4 style="text-align:left">{{ title }}</h4>
       {% endfor %}
       {% if item.contents %}
       <li>{{ item.contents }}</li>
