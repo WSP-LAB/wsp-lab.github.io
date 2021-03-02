@@ -3,17 +3,17 @@ layout: default
 ---
 <style>
   div.row {
-    width: 100%
+    width: 90%
     display: flex;
   }
   
   div.left {
-    width: 40%;
+    width: 30%;
     float: left;
   }  
   
   div.left {
-    width: 60%;
+    width: 40%;
     float: right;
   }
 </style>
@@ -48,7 +48,7 @@ Our research topics can be categorized into four research directions:
     {% endfor %}
     {% if item.contents %}
       <li>{{ item.contents }}</li>
-      <br>
+      
     {% if item.media %}
       <a href="{{ item.media }}">[media]</a>
      {% endif %}
@@ -61,6 +61,7 @@ Our research topics can be categorized into four research directions:
         {% if item.summary %}
           <a href="{{ item.summary }}">[summary]</a>
         {% endif %}
+        <br>
    </div>
     
 
