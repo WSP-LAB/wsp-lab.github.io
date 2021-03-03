@@ -30,7 +30,7 @@ Our research topics can be categorized into four research directions:
 - R2. Building tools for finding vulnerabilities in server/client-side web applications
 - R3. Finding security/privacy vulnerabilities in web services
 - R4. Analyzing online scam/criminal activities  occurring on the Internet
-
+<hr>
 ## Representative Works
 
   {% for article in site.research %}
