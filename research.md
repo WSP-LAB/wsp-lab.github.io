@@ -46,10 +46,8 @@ Our research topics can be categorized into four research directions:
         <img src = "{{item.photo}}">
       </div>
     {% endif %}
-      
-
-  <br>
-  
+    <br>
+    {% endfor %}
 
   
 {% if forloop.last == false %} <hr> {% endif %}
