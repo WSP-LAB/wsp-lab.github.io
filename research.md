@@ -37,11 +37,13 @@ Our research topics can be categorized into four research directions:
   <br>
     
   {% for item in article.list %}
-
+  
   {% for title in item.title %}
+  <div class='right-box'>
   <strong>
     <i>{{ title }}</i>
   </strong>
+  </div>
   {% endfor %}
 
   {% if item.photo %} 
