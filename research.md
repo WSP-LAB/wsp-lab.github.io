@@ -10,7 +10,7 @@ layout: default
   
 .right-box {
   flaot: right;
-  width: 150%;
+  width: 100%;
   padding: 10px;
   word-break:break-all;
 }
