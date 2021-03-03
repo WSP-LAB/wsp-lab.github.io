@@ -1,21 +1,17 @@
 ---
 layout: default
 ---
-<style>
-  div.row {
-    width: 100%
-    display: flex;
-  }
+<style>  
+.left-box {
+  float: left;
+  width: 40%
+}
   
-  div.left {
-    width: 30%;
-    float: left;
-  }  
+.right-box {
+  flaot: left;
+  width: 60%
+}
   
-  div.left {
-    width: 60%;
-    float: right;
-  }
 </style>
 
 
@@ -47,12 +43,12 @@ Our research topics can be categorized into four research directions:
   {% endfor %}
 
   {% if item.photo %} 
-  <div>
+  <div class='left-box'>
     <img src = "{{item.photo}}">
   </div>
 
   {% endif %}
-
+  <div class='right-box'>
   {% if item.contents %}
   <li>{{ item.contents }}</li>
   {% endif %}
@@ -69,7 +65,9 @@ Our research topics can be categorized into four research directions:
   <a href="{{ item.summary }}">[summary]</a>
   {% endif %}
   <br>
+  </div>
   {% endfor %}
+  
 
   {% if forloop.last == false %} <hr> {% endif %}
 {% endfor %}      
