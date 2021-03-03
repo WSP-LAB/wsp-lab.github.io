@@ -4,13 +4,13 @@ layout: default
 <style>  
 .left-box {
   float: left;
-  width: 40%;
-  padding: 20px
+  width: 50%;
+  padding: 20px;
 }
   
 .right-box {
   flaot: right;
-  width: 100%;
+  width: 120%;
   padding: 10px;
   word-break:break-all;
   box-sizing:border-box;
