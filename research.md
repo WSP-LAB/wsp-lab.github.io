@@ -40,11 +40,12 @@ Our research topics can be categorized into four research directions:
   {% for title in item.title %}
     <strong><i>{{ title }}</i></strong>
   {% endfor %}
+  
   {% if item.photo %} 
-    <div style="float:left;width:40%;padding:10px">
+    <div style="float:left;width:30%;padding:10px">
      <img src = "{{item.photo}}">
-   </div>
-   {% endif %}
+     </div>
+  {% endif %}
       
    <div style="float:left;width:50%;padding:10px">
    {% if item.contents %}
