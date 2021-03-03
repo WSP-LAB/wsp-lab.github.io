@@ -47,23 +47,7 @@ Our research topics can be categorized into four research directions:
     </div>
   {% endif %}
       
-   <div style="float:left;width:50%;padding:10px;">
-   {% if item.contents %}
-   <li>{{ item.contents }}</li>
-   {% endif %}
-   {% if item.media %}
-     <a href="{{ item.media }}">[media]</a>
-   {% endif %}
-   {% if item.paper %}
-     <a href="{{ item.paper }}">[paper]</a>
-   {% endif %}
-   {% if item.code %}
-     <a href="{{ item.code }}">[code]</a>
-   {% endif %}
-   {% if item.summary %}
-     <a href="{{ item.summary }}">[summary]</a>
-   {% endif %}
-   </div>
+
   <br>
   {% endfor %}
 
