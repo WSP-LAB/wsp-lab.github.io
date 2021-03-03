@@ -68,7 +68,7 @@ Our research topics can be categorized into four research directions:
   {% if item.summary %}
   <a href="{{ item.summary }}">[summary]</a>
   {% endif %}
-  <br><br>
+  <br><br><br>
   </div>
   {% endfor %}
   
