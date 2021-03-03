@@ -4,12 +4,14 @@ layout: default
 <style>  
 .left-box {
   float: left;
-  width: 40%
+  width: 40%;
+  padding: 10px
 }
   
 .right-box {
-  flaot: left;
-  width: 60%
+  flaot: right;
+  width: 50%;
+  padding: 10px
 }
   
 </style>
