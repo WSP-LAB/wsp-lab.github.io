@@ -32,24 +32,24 @@ Our research topics can be categorized into four research directions:
 
 ## Representative Works
   {% for article in site.research %}
-  <strong> {{ article.subject }} </strong>
-  <br>
+    <strong> {{ article.subject }} </strong>
+    <br>
     
-  {% for item in article.list %}
+    {% for item in article.list %}
   
-  {% for title in item.title %}
-    <strong><i>{{ title }}</i></strong>
-  {% endfor %}
+      {% for title in item.title %}
+        <strong><i>{{ title }}</i></strong>
+      {% endfor %}
   
-  {% if item.photo %} 
-    <div style="float:left;width:30%;padding:10px;">
-      <img src = "{{item.photo}}">
-    </div>
-  {% endif %}
+    {% if item.photo %} 
+      <div style="float:left;width:30%;padding:10px;">
+        <img src = "{{item.photo}}">
+      </div>
+    {% endif %}
       
 
   <br>
-  {% endfor %}
+  
 
   
 {% if forloop.last == false %} <hr> {% endif %}
