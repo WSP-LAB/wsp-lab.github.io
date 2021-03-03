@@ -1,4 +1,3 @@
-
 ---
 layout: default
 ---
@@ -38,8 +37,8 @@ Our research topics can be categorized into four research directions:
     
   {% for item in article.list %}
   
-  <table sytle="border:"1px; margin:auto;">
-  <div class="row">
+  <table>
+  <div>
     <tr>
       <td colspan="2">  
         {% for title in item.title %}
