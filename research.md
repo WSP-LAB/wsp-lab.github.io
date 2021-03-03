@@ -49,7 +49,9 @@ Our research topics can be categorized into four research directions:
     <tr>
       {% if item.photo %} 
       <td width="40%">
+        <div style="height:100%">
         <img src = "{{item.photo}}" width="50%">
+        </div>
       </td>
       {% endif %}
       
