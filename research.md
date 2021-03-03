@@ -48,11 +48,12 @@ Our research topics can be categorized into four research directions:
       </td>  
     </tr>
     <tr>
-      <td  width="40%">
-        {% if item.photo %} 
-          <img src = "{{item.photo}}" width="50%">
-        {% endif %}
+      {% if item.photo %} 
+      <td width="40%">
+        <img src = "{{item.photo}}" width="50%">
       </td>
+      {% endif %}
+      
       <td>
         {% if item.contents %}
           <li>{{ item.contents }}</li>
