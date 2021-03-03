@@ -36,7 +36,6 @@ Our research topics can be categorized into four research directions:
     <br>
     
     {% for item in article.list %}
-  
       {% for title in item.title %}
         <strong><i>{{ title }}</i></strong>
       {% endfor %}
@@ -49,7 +48,7 @@ Our research topics can be categorized into four research directions:
     <br>
     {% endfor %}
 
-  
+{% endfor %}        
 {% if forloop.last == false %} <hr> {% endif %}
 {% endfor %}      
 
