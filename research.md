@@ -46,7 +46,7 @@ Our research topics can be categorized into four research directions:
    </div>
    {% endif %}
       
-   <div style="float:right;width:50%;padding:10px">
+   <div style="float:left;width:50%;padding:10px">
    {% if item.contents %}
    <li>{{ item.contents }}</li>
    {% endif %}
