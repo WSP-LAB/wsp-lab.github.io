@@ -1,6 +1,23 @@
 ---
 layout: default
 ---
+<style>
+  div.row {
+    width: 100%
+    display: flex;
+  }
+  
+  div.left {
+    width: 30%;
+    float: left;
+  }  
+  
+  div.left {
+    width: 60%;
+    float: right;
+  }
+</style>
+
 
 ## Research Area
 Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
@@ -14,19 +31,56 @@ Our research topics can be categorized into four research directions:
 - R4. Analyzing online scam/criminal activities  occurring on the Internet
 
 ## Representative Works
-  {% for article in site.research %}
-    <strong> {{ article.subject }} </strong>
-    <br>
-    {% for item in article.list %}
-      {%for title in item.title %}
-        <strong><i>{{ title }}</i></strong>
-      {% endfor %}
-    {% endfor %}
-    <br>
 
-        
-  {% if forloop.last == false %} <hr> {% endif %}
-  {% endfor %}      
+  {% for article in site.research %}
+  <strong> {{ article.subject }} </strong>
+  <br>
+    
+  {% for item in article.list %}
+  
+  <table>
+  <div>
+    <tr>
+      <td colspan="2">  
+        {% for title in item.title %}
+          <strong><i>{{ title }}</i></strong>
+        {% endfor %}
+      </td>  
+    </tr>
+    <tr>
+      {% if item.photo %} 
+      <td width="40%">
+        <div>
+        <img src = "{{item.photo}}">
+        </div>
+      </td>
+      {% endif %}
+      <td width="50%">
+        {% if item.contents %}
+          <li>{{ item.contents }}</li>
+        {% endif %}
+        {% if item.media %}
+          <a href="{{ item.media }}">[media]</a>
+        {% endif %}
+        {% if item.paper %}
+          <a href="{{ item.paper }}">[paper]</a>
+        {% endif %}
+        {% if item.code %}
+          <a href="{{ item.code }}">[code]</a>
+        {% endif %}
+        {% if item.summary %}
+          <a href="{{ item.summary }}">[summary]</a>
+        {% endif %}
+      </td> 
+    </tr>
+  </div>
+  </table>
+  <br>
+  {% endfor %}
+
+  
+{% if forloop.last == false %} <hr> {% endif %}
+{% endfor %}      
 
 <!--
 <div class="posts">
