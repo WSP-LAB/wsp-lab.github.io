@@ -13,6 +13,7 @@ layout: default
   width: 100%;
   padding: 10px;
   word-break:break-all;
+  box-sizing:border-box;
 }
   
 </style>
