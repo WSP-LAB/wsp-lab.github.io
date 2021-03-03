@@ -46,7 +46,7 @@ Our research topics can be categorized into four research directions:
   </strong>
   </div>
   {% endfor %}
-
+  <div>
   {% if item.photo %} 
   <div class='left-box'>
     <img src = "{{item.photo}}">
@@ -70,7 +70,7 @@ Our research topics can be categorized into four research directions:
   <a href="{{ item.summary }}">[summary]</a>
   {% endif %}
   <br><br><br>
-  </div>
+  </div></div>
   {% endfor %}
   
 
