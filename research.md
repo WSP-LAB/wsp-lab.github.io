@@ -33,53 +33,42 @@ Our research topics can be categorized into four research directions:
 ## Representative Works
 
   {% for article in site.research %}
-  <strong> {{ article.subject }} </strong>
-  <br>
+    <strong> {{ article.subject }} </strong>
+    <br>
     
-  {% for item in article.list %}
-  
-  <table>
-  <div>
-    <tr>
-      <td colspan="2">  
-        {% for title in item.title %}
-          <strong><i>{{ title }}</i></strong>
-        {% endfor %}
-      </td>  
-    </tr>
-    <tr>
-      {% if item.photo %} 
-      <td width="40%">
-        <div>
-        <img src = "{{item.photo}}">
-        </div>
-      </td>
-      {% endif %}
-      <td width="50%">
-        {% if item.contents %}
-          <li>{{ item.contents }}</li>
-        {% endif %}
-        {% if item.media %}
-          <a href="{{ item.media }}">[media]</a>
-        {% endif %}
-        {% if item.paper %}
-          <a href="{{ item.paper }}">[paper]</a>
-        {% endif %}
-        {% if item.code %}
-          <a href="{{ item.code }}">[code]</a>
-        {% endif %}
-        {% if item.summary %}
-          <a href="{{ item.summary }}">[summary]</a>
-        {% endif %}
-      </td> 
-    </tr>
-  </div>
-  </table>
-  <br>
-  {% endfor %}
+    {% for item in article.list %}
 
+    {% for title in item.title %}
+      <strong><i>{{ title }}</i></strong>
+    {% endfor %}
+
+
+    {% if item.photo %} 
+      <div>
+        <img src = "{{item.photo}}">
+      </div>
+
+    {% endif %}
+
+    {% if item.contents %}
+      <li>{{ item.contents }}</li>
+    {% endif %}
+    {% if item.media %}
+      <a href="{{ item.media }}">[media]</a>
+    {% endif %}
+    {% if item.paper %}
+      <a href="{{ item.paper }}">[paper]</a>
+    {% endif %}
+    {% if item.code %}
+      <a href="{{ item.code }}">[code]</a>
+    {% endif %}
+    {% if item.summary %}
+      <a href="{{ item.summary }}">[summary]</a>
+    {% endif %}
+    <br>
+  {% endfor %}
   
-{% if forloop.last == false %} <hr> {% endif %}
+  {% if forloop.last == false %} <hr> {% endif %}
 {% endfor %}      
 
 <!--
