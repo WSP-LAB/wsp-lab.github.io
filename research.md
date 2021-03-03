@@ -73,7 +73,6 @@ Our research topics can be categorized into four research directions:
     </tr>
   </div>
   </table>
-  {% endif %}
   <br>
   {% endfor %}
 
