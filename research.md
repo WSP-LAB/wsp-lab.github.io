@@ -57,7 +57,7 @@ Our research topics can be categorized into four research directions:
       
       <td>
         {% if item.contents %}
-          <li>{{ item.contents }}</li>
+          {{ item.contents }}
         {% endif %}
         {% if item.media %}
           <a href="{{ item.media }}">[media]</a>
