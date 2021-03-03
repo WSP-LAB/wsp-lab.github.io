@@ -11,7 +11,8 @@ layout: default
 .right-box {
   flaot: right;
   width: 150%;
-  padding: 10px
+  padding: 10px;
+  word-break:break-all;
 }
   
 </style>
