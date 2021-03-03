@@ -17,19 +17,16 @@ Our research topics can be categorized into four research directions:
   {% for article in site.research %}
     <strong> {{ article.subject }} </strong>
     <br>
-    
     {% for item in article.list %}
-      {% for title in item.title %}
+      {%for title in item.title %}
         <strong><i>{{ title }}</i></strong>
       {% endfor %}
-  
-
-    <br>
     {% endfor %}
+    <br>
 
         
-{% if forloop.last == false %} <hr> {% endif %}
-{% endfor %}      
+  {% if forloop.last == false %} <hr> {% endif %}
+  {% endfor %}      
 
 <!--
 <div class="posts">
