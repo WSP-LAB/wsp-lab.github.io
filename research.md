@@ -1,23 +1,6 @@
 ---
 layout: default
 ---
-<style>
-  div.row {
-    width: 100%
-    display: flex;
-  }
-  
-  div.left {
-    width: 30%;
-    float: left;
-  }  
-  
-  div.left {
-    width: 60%;
-    float: right;
-  }
-</style>
-
 
 ## Research Area
 Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
