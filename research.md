@@ -5,7 +5,7 @@ layout: default
 .left-box {
   float: left;
   width: 40%;
-  padding: 10px
+  padding: 20px
 }
   
 .right-box {
