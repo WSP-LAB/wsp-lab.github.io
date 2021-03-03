@@ -38,7 +38,7 @@ Our research topics can be categorized into four research directions:
     
   {% for item in article.list %}
   
-  <table border="1">
+  <table sytle="border:"1px; margin:auto;">
   <div class="row">
     <tr>
       <td colspan="2">  
