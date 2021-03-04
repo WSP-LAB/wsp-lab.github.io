@@ -34,10 +34,9 @@ Our research topics can be categorized into four research directions:
 ## Representative Works
 
   {% for article in site.research %}
-  <strong>
+  <p style="font-size:20px"><strong>
     {{ article.subject }} 
-  </strong>
-  <br>
+  </strong></p>
     
   {% for item in article.list %}
   
