@@ -47,7 +47,7 @@ Our research topics can be categorized into four research directions:
   </strong>
   </div>
   {% endfor %}
-  <div>
+  <div class="container">
   {% if item.photo %}
   <div class='left-box'>
     <img src = "{{item.photo}}">
