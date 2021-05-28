@@ -1,27 +1,27 @@
 ---
 layout: default
 ---
-<style>  
+<style>
 .left-box {
   float: left;
   width: 50%;
   padding: 20px;
 }
-  
+
 .right-box {
-  flaot: right;
-  width: 100%;
+  float: right;
+  width: 50%;
   padding: 10px;
   word-break:break-all;
   box-sizing:border-box;
 }
-  
+
 </style>
 
 
 ## Research Area
-<div class='right-box'>
-Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web 
+<div>
+Web Security & Privacy (WSP) Lab  conducts research on various topics regarding web
 security and privacy. We envision making Internet services more secure and private
 by contemplating novel ideas and implementing them in real-world services.
 Our research topics can be categorized into four research directions:
@@ -35,20 +35,20 @@ Our research topics can be categorized into four research directions:
 
   {% for article in site.research %}
   <p style="font-size:20px"><strong>
-    {{ article.subject }} 
+    {{ article.subject }}
   </strong></p>
-    
+
   {% for item in article.list %}
-  
+
   {% for title in item.title %}
-  <div class='right-box'>
+  <div>
   <strong>
     <i>{{ title }}</i>
   </strong>
   </div>
   {% endfor %}
   <div>
-  {% if item.photo %} 
+  {% if item.photo %}
   <div class='left-box'>
     <img src = "{{item.photo}}">
   </div>
@@ -73,10 +73,10 @@ Our research topics can be categorized into four research directions:
   <br><br><br>
   </div></div>
   {% endfor %}
-  
+
 
   {% if forloop.last == false %} <hr> {% endif %}
-{% endfor %}      
+{% endfor %}
 <!--
 <div class="posts">
   {% for post in site.posts %}
