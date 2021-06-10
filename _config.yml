@@ -89,7 +89,7 @@ research:
       code: https://github.com/spostman/ppp-ccs2018
       summary: 
 
-  - subject: "R4. Analyzing online scam/criminal activities  occurring on the Internet"
+  - subject: "R4. Analyzing online scam/criminal activities occurring on the Internet"
     list:
     - title: "[WWW'19] Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
       contents: We conducted an in-depth measurement study to demystify the prevalent phishing websites on the Dark Web. We analyzed the text content of 28,928 HTTP Tor hidden services hosting 21 million dark webpages and confirmed 901 phishing domains. We also discovered a trend on the Dark Web in which service providers perceive dark web domains as their service brands. This trend exacerbates the risk of phishing for their service users who remember only a partial Tor hidden service address. Our work facilitates a better understanding of the phishing risks on the Dark Web and encourages further research on establishing an authentic and reliable service on the Dark Web. 
