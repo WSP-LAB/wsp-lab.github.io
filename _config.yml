@@ -167,15 +167,16 @@ news:
 publications:
   - year: 2021
     list:
-    - title: "Security Analysis on Practices of Certificate Authorities in the HTTPS Phishing Ecosystem"
-      authors: Doowon Kim, Haehyun Cho, Yonghwi Kwon, Adam Oest, Adam Doupe, Sooel Son, Gail-Joon Ahn, and Tudor Dumitras
-      published: false
-      booktitle: 16th ACM ASIA Conference on Computer and Communications Security (ASIACCS 2021)
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
       authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
       published: false
       toptier_security: true
       booktitle: 21st USENIX Security Symposium (USENIX Security 2021)
+    - title: "Security Analysis on Practices of Certificate Authorities in the HTTPS Phishing Ecosystem"
+      link: https://wsp-lab.github.io/papers/kim-asiaccs21.pdf
+      authors: Doowon Kim, Haehyun Cho, Yonghwi Kwon, Adam Oest, Adam Doupe, Sooel Son, Gail-Joon Ahn, and Tudor Dumitras
+      published: true
+      booktitle: 16th ACM ASIA Conference on Computer and Communications Security (ASIACCS 2021)
     - title: "The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
       link: https://wsp-lab.github.io/papers/kim-fraud_detective-ndss21.pdf
       authors: Joongyum Kim, Junghwan Park (co-leading author), and Sooel Son
