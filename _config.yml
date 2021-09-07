@@ -174,9 +174,11 @@ publications:
   - year: 2021
     list:
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
+      link: https://wsp-lab.github.io/papers/lee-adcube-sec21.pdf
       authors: Hyunjoo Lee, Jiyeon Lee (co-leading author), Daejun Kim, Suman Jana, Insik Shin, and Sooel Son
-      published: false
+      published: true
       toptier_security: true
+      code: https://github.com/WSP-LAB/AdCube
       booktitle: 21st USENIX Security Symposium (USENIX Security 2021)
     - title: "Security Analysis on Practices of Certificate Authorities in the HTTPS Phishing Ecosystem"
       link: https://wsp-lab.github.io/papers/kim-asiaccs21.pdf
