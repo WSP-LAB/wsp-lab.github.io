@@ -129,12 +129,12 @@ people_master:
   - name: Wonho Song
     photo: /images/wonho.jpg
     homepage:
-  - name: Jihwan Kim
-    photo: /images/jihwan.jpg
-    homepage: https://github.com/mdsnins
   - name: Hoyong Jeong
     photo: /images/hoyong.jpg
     homepage: https://yongari38.github.io
+  - name: Jihwan Kim
+    photo: /images/jihwan.jpg
+    homepage: https://github.com/mdsnins
 
 people_researcher:
   - name: Sijae Woo
