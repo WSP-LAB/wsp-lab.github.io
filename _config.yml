@@ -165,6 +165,8 @@ people_alumni:
 
 news:
   list:
+  - date: Oct, 2021
+    comments: Two papers accepted in <strong>USENIX Security'22</strong>!
   - date: Feb, 2021
     comments: A paper accepted in ASIACCS'21!
   - date: Dec, 2020
