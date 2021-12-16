@@ -173,6 +173,19 @@ news:
     comments: A paper accepted in <strong>USENIX Security'21</strong>!
 
 publications:
+  - year: 2022
+    list:
+    - title: "FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities"
+      authors: Sunnyeo Park, Daejun Kim (co-leading author), Suman Jana, and Sooel Son
+      published: false
+      toptier_security: true
+      code: https://github.com/WSP-LAB/FUGIO
+      booktitle: 22nd USENIX Security Symposium (USENIX Security 2022)
+    - title: "Watching the Watchers: Practical Video Identification Attack in LTE Networks"
+      authors: Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim
+      published: false
+      toptier_security: true
+      booktitle: 22nd USENIX Security Symposium (USENIX Security 2022)
   - year: 2021
     list:
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
