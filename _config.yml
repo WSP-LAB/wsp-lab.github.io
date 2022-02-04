@@ -186,6 +186,16 @@ publications:
       published: false
       toptier_security: true
       booktitle: 22nd USENIX Security Symposium (USENIX Security 2022)
+    - title: "HiddenCPG: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism of Code Property Graphs"
+      authors: Seongil Wi, Sijae Woo, Joyce Whang, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: The Web Conference 2022: Security, Privacy, and Trust Research Track (WWW 2022)
+    - title: "Link: Black-Box Detection of Cross-Site Scripting Vulnerabilities Using Reinforcement Learning"
+      authors: Soyoung Lee, Seongil Wi, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: The Web Conference 2022: Security, Privacy, and Trust Research Track (WWW 2022)
   - year: 2021
     list:
     - title: "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads"
