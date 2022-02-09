@@ -165,6 +165,10 @@ people_alumni:
 
 news:
   list:
+  - date: Feb, 2022
+    comments: Soyoung Lee awarded <strong>2022 KAIST SoC Best Thesis Award</strong>!
+  - date: Jan, 2022
+    comments: Two papers accepted in <strong>WWW'22</strong>!
   - date: Oct, 2021
     comments: Two papers accepted in <strong>USENIX Security'22</strong>!
   - date: Feb, 2021
