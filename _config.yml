@@ -118,23 +118,23 @@ people_phd:
   - name: Sunnyeo Park
     photo: /images/sunnyeo.jpg
     homepage:
-
-people_master:
   - name: Soyoung Lee
     photo: /images/soyoung.jpg
     homepage:
-  - name: Dahun Lee
-    photo: /images/dahun.jpg
-    homepage:
-  - name: Wonho Song
-    photo: /images/wonho.jpg
-    homepage:
+
+people_master:
   - name: Hoyong Jeong
     photo: /images/hoyong.jpg
     homepage: https://yongari38.github.io
   - name: Jihwan Kim
     photo: /images/jihwan.jpg
     homepage: https://github.com/mdsnins
+  - name: Beomsoo Kim
+    photo: /images/beomsoo.jpg
+    homepage:
+  - name: Dongwon Shin
+    photo: /images/dongwon.jpg
+    homepage:
 
 people_researcher:
   - name: Sijae Woo
@@ -162,6 +162,14 @@ people_alumni:
     homepage:
     degree: Master
     work: Korea Institute of Nuclear Nonproliferation and Control, South Korea
+  - name: Dahun Lee
+    homepage:
+    degree: Master
+    work: Theori, South Korea
+  - name: Wonho Song
+    homepage:
+    degree: MAster
+    work:
 
 news:
   list:
