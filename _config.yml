@@ -188,7 +188,7 @@ publications:
       toptier_cs: true
       booktitle: "20th ACM International Conference on Mobile Systems, Applications, and Services 2022 (MobiSys 2022)"
     - title: "FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities"
-      link: https://www.usenix.org/conference/usenixsecurity22/presentation/park-sunnyeo
+      link: https://wsp-lab.github.io/papers/park-fugio-sec22.pdf
       code: https://github.com/WSP-LAB/FUGIO
       authors: Sunnyeo Park, Daejun Kim (co-leading author), Suman Jana, and Sooel Son
       published: true
