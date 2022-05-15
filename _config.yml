@@ -182,6 +182,11 @@ news:
 publications:
   - year: 2022
     list:
+    - title: "HearMeOut: Detecting Voice Phishing Activities in Android"
+      authors: Joongyum Kim, Jihwan Kim, Seongil Wi, Yongdae Kim, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "20th ACM International Conference on Mobile Systems, Applications, and Services 2022 (MobiSys 2022)"
     - title: "FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities"
       authors: Sunnyeo Park, Daejun Kim (co-leading author), Suman Jana, and Sooel Son
       published: false
