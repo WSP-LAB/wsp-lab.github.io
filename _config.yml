@@ -196,7 +196,7 @@ publications:
       code: https://github.com/WSP-LAB/FUGIO
       booktitle: 22nd USENIX Security Symposium (USENIX Security 2022)
     - title: "Watching the Watchers: Practical Video Identification Attack in LTE Networks"
-      link: https://www.usenix.org/conference/usenixsecurity22/presentation/bae
+      link: https://wsp-lab.github.io/papers/bae-watchers-sec22.pdf
       authors: Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim
       published: true
       toptier_security: true
