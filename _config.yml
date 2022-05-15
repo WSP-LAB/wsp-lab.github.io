@@ -200,12 +200,14 @@ publications:
       booktitle: 22nd USENIX Security Symposium (USENIX Security 2022)
     - title: "HiddenCPG: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism of Code Property Graphs"
       link: https://wsp-lab.github.io/papers/wi-hiddencpg-www22.pdf
+      code: https://github.com/WSP-LAB/HiddenCPG
       authors: Seongil Wi, Sijae Woo, Joyce Whang, and Sooel Son
       published: true
       toptier_cs: true
       booktitle: "The Web Conference 2022: Security, Privacy, and Trust Research Track (WWW 2022)"
     - title: "Link: Black-Box Detection of Cross-Site Scripting Vulnerabilities Using Reinforcement Learning"
       link: https://wsp-lab.github.io/papers/lee-link-www22.pdf
+      code: https://github.com/WSP-LAB/Link
       authors: Soyoung Lee, Seongil Wi, and Sooel Son
       published: true
       toptier_cs: true
