@@ -137,7 +137,7 @@ people_master:
     homepage:
   - name: Kiwon Chung
     photo: /images/kiwon.jpg
-    hompage
+    hompage:
 
 people_alumni:
   - name: Taekjin Lee
