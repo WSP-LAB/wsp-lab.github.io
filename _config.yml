@@ -190,6 +190,11 @@ news:
 publications:
   - year: 2022
     list:
+    - title: "Learning to Generate Inversion-Resistant Model Explanations"
+      authors: Hoyong Jeong, Suyoung Lee, Sung Ju Hwang, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "36th Annual Conference on Neural Information Processing Systems (NeurIPS 2022)"
     - title: "HearMeOut: Detecting Voice Phishing Activities in Android"
       authors: Joongyum Kim, Jihwan Kim, Seongil Wi, Yongdae Kim, and Sooel Son
       link: https://wsp-lab.github.io/papers/kim-hearmeout-mobisys22.pdf
