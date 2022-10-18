@@ -199,13 +199,13 @@ publications:
       link: https://wsp-lab.github.io/papers/lee-tdsc22.pdf
       published: true
       toptier_cs: false
-      booktitle: "IEEE Transactions on Dependable and Secure Computing (Journal TSE 2022)" 
+      booktitle: "IEEE Transactions on Dependable and Secure Computing (Journal TDSC 2022)" 
     - title: "Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned"
       authors: Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim
       link: https://wsp-lab.github.io/papers/kim-tse22.pdf
       published: true
       toptier_cs: false
-      booktitle: "36th Annual Conference on Neural Information Processing Systems (NeurIPS 2022)"      
+      booktitle: "IEEE Transactions on Software Engineering (Journal TSE 2022)"      
     - title: "HearMeOut: Detecting Voice Phishing Activities in Android"
       authors: Joongyum Kim, Jihwan Kim, Seongil Wi, Yongdae Kim, and Sooel Son
       link: https://wsp-lab.github.io/papers/kim-hearmeout-mobisys22.pdf
