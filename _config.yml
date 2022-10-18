@@ -185,9 +185,6 @@ news:
   - date: Oct, 2021
     comments: Two papers accepted in <strong>USENIX Security'22</strong>!
   - date: Feb, 2021
-    comments: A paper accepted in ASIACCS'21!
-  - date: Dec, 2020
-    comments: A paper accepted in <strong>USENIX Security'21</strong>!
 
 publications:
   - year: 2022
@@ -197,6 +194,18 @@ publications:
       published: false
       toptier_cs: true
       booktitle: "36th Annual Conference on Neural Information Processing Systems (NeurIPS 2022)"
+    - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
+      authors: Suyoung Lee, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son
+      link: https://wsp-lab.github.io/papers/lee-tdsc22.pdf
+      published: true
+      toptier_cs: false
+      booktitle: "IEEE Transactions on Dependable and Secure Computing (Journal TSE 2022)" 
+    - title: "Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned"
+      authors: Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim
+      link: https://wsp-lab.github.io/papers/kim-tse22.pdf
+      published: true
+      toptier_cs: false
+      booktitle: "36th Annual Conference on Neural Information Processing Systems (NeurIPS 2022)"      
     - title: "HearMeOut: Detecting Voice Phishing Activities in Android"
       authors: Joongyum Kim, Jihwan Kim, Seongil Wi, Yongdae Kim, and Sooel Son
       link: https://wsp-lab.github.io/papers/kim-hearmeout-mobisys22.pdf
