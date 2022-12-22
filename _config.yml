@@ -175,6 +175,8 @@ people_alumni:
 news:
   list:
   - date: Dec, 2022
+    comments: A paper accepted in <strong>NDSS'23</strong>!
+  - date: Dec, 2022
     comments: Seongil Wi awarded <strong>2022 Naver Ph.D. Fellowship</strong>!
   - date: Sep, 2022
     comments: A paper accepted in <strong>NeurIPS'22</strong>!
@@ -188,6 +190,13 @@ news:
     comments: Two papers accepted in <strong>USENIX Security'22</strong>!
 
 publications:
+  - year: 2023
+    list:
+    - title: "DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
+      authors: Seongil Wi, Trung Tin Nguyen, Jihwan Kim, Ben Stock, and Sooel Son
+      published: false
+      toptier_security: true
+      booktitle: "30th Network & Distributed System Security Symposium (NDSS 2023)"
   - year: 2022
     list:
     - title: "Learning to Generate Inversion-Resistant Model Explanations"
