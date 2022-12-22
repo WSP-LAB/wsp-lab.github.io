@@ -201,7 +201,8 @@ publications:
     list:
     - title: "Learning to Generate Inversion-Resistant Model Explanations"
       authors: Hoyong Jeong, Suyoung Lee, Sung Ju Hwang, and Sooel Son
-      published: false
+      link: https://wsp-lab.github.io/papers/jeong_neurips22.pdf
+      published: true
       toptier_cs: true
       booktitle: "36th Annual Conference on Neural Information Processing Systems (NeurIPS 2022)"
     - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
