@@ -106,9 +106,6 @@ people_prof:
   homepage: https://sites.google.com/site/ssonkaist/home
 
 people_phd:
-  - name: Joongyum Kim
-    photo: /images/joongyum.jpg
-    homepage:
   - name: Seongil Wi
     photo: /images/seongil.jpg
     homepage: https://seongil-wi.github.io/
@@ -123,9 +120,6 @@ people_phd:
     homepage:
 
 people_master:
-  - name: Hoyong Jeong
-    photo: /images/hoyong.jpg
-    homepage: https://yongari38.github.io
   - name: Jihwan Kim
     photo: /images/jihwan.jpg
     homepage: https://github.com/mdsnins
@@ -177,6 +171,14 @@ people_alumni:
     homepage:
     degree: Master
     work: Upstage, South Korea
+  - name: Joongyum Kim
+    homepage:
+    degree: Ph.D.
+    work: Moloco, South Korea
+  - name: Hoyong Jeong
+    homepage:
+    degree: Master
+    work:
 
 news:
   list:
