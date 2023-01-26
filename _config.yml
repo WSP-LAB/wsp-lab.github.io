@@ -182,6 +182,8 @@ people_alumni:
 
 news:
   list:
+  - date: Jan, 2023
+    comments: A paper accepted in <strong>WWW'23</strong>!
   - date: Dec, 2022
     comments: A paper accepted in <strong>NDSS'23</strong>!
   - date: Dec, 2022
@@ -194,12 +196,15 @@ news:
     comments: Soyoung Lee awarded <strong>2022 KAIST SoC Best Thesis Award</strong>!
   - date: Jan, 2022
     comments: Two papers accepted in <strong>WWW'22</strong>!
-  - date: Oct, 2021
-    comments: Two papers accepted in <strong>USENIX Security'22</strong>!
 
 publications:
   - year: 2023
     list:
+    - title: "RICC: Robust Collective Classification of Sybil Accounts"
+      authors: Dongwon Shin, Suyoung Lee (co-leading author), and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "The Web Conference 2023: Security, Privacy, and Trust Research Track (WWW 2023)"
     - title: "DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
       authors: Seongil Wi, Trung Tin Nguyen, Jihwan Kim, Ben Stock, and Sooel Son
       published: false
