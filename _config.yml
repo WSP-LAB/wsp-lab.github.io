@@ -215,7 +215,7 @@ publications:
     - title: "DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
       link: https://wsp-lab.github.io/papers/wi-diffcsp-ndss23.pdf
       authors: Seongil Wi, Trung Tin Nguyen, Jihwan Kim, Ben Stock, and Sooel Son
-      published: false
+      published: true
       toptier_security: true
       booktitle: "30th Network & Distributed System Security Symposium (NDSS 2023)"
   - year: 2022
