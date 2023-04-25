@@ -182,6 +182,8 @@ people_alumni:
 
 news:
   list:
+  - date: Apr, 2023
+    comments: A paper accepted in <strong>ICML'23</strong>!
   - date: Jan, 2023
     comments: A paper accepted in <strong>WWW'23</strong>!
   - date: Dec, 2022
@@ -200,12 +202,18 @@ news:
 publications:
   - year: 2023
     list:
+    - title: "Margin-based Neural Network Watermarking"
+      authors: Byungjoo Kim, Suyoung Lee, Seanie Lee, Sooel Son, and Sung Ju Hwang
+      published: false
+      toptier_cs: true
+      booktitle: "40th International Conference on Machine Learning"
     - title: "RICC: Robust Collective Classification of Sybil Accounts"
       authors: Dongwon Shin, Suyoung Lee (co-leading author), and Sooel Son
       published: false
       toptier_cs: true
       booktitle: "The Web Conference 2023: Security, Privacy, and Trust Research Track (WWW 2023)"
     - title: "DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
+      link: https://wsp-lab.github.io/papers/wi-diffcsp-ndss23.pdf
       authors: Seongil Wi, Trung Tin Nguyen, Jihwan Kim, Ben Stock, and Sooel Son
       published: false
       toptier_security: true
