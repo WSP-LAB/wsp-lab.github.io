@@ -128,7 +128,7 @@ people_master:
     homepage:
   - name: Dongwon Shin
     photo: /images/dongwon.jpg
-    homepage:
+    homepage: https://godeastone.github.io/
   - name: Kiwon Chung
     photo: /images/kiwon.jpg
     homepage:
