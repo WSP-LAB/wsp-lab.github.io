@@ -73,7 +73,7 @@ layout: default
 
 {% if site.people_master %}
 ---
-## Master Students
+## Master's Students
 {% for person in site.people_master %}
 {% assign mod3 = forloop.index | modulo: 3 %}
 {% if mod3 == 1 %}
@@ -94,7 +94,7 @@ layout: default
         </td>
         <td class="container">
           {{ person.name }}<br />
-          <em>Master Student</em>
+          <em>Master's Student</em>
           {% if person.homepage %}
           <br />
           <a href="{{ person.homepage }}">
