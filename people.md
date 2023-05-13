@@ -33,7 +33,7 @@ layout: default
 
 {% if site.people_phd %}
 ---
-## Ph.D. Students
+## Ph.D. students
 {% for person in site.people_phd %}
 {% assign mod3 = forloop.index | modulo: 3 %}
 {% if mod3 == 1 %}
@@ -54,7 +54,7 @@ layout: default
         </td>
         <td class="container">
           {{ person.name }}<br />
-          <em>Ph.D. Student</em>
+          <em>Ph.D. student</em>
           {% if person.homepage %}
           <br />
           <a href="{{ person.homepage }}">
@@ -73,7 +73,7 @@ layout: default
 
 {% if site.people_master %}
 ---
-## Master's Students
+## Master's students
 {% for person in site.people_master %}
 {% assign mod3 = forloop.index | modulo: 3 %}
 {% if mod3 == 1 %}
@@ -94,7 +94,7 @@ layout: default
         </td>
         <td class="container">
           {{ person.name }}<br />
-          <em>Master's Student</em>
+          <em>Master's student</em>
           {% if person.homepage %}
           <br />
           <a href="{{ person.homepage }}">
