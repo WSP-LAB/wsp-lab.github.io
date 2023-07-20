@@ -41,14 +41,11 @@ kramdown:
 research:
   - subject: "R1. Analyzing security/privacy risks in Machine Learning (ML) models"
     list:
-    - title: "Penetration Security Testing of ML Model Vulnerabilities and Defense  [IITP 전문연구실]"
-      contents: We investigate various security and privacy threats in recent machine learning models and implement tools that assess the robustness of given ML models by conducting penetration security testing.
-      media: https://www.google.com/url?q=https%3A%2F%2Fgsis.kaist.ac.kr%2Fboard%2Fview%3Fbbs_id%3Dnews%26bbs_sn%3D1076%26page%3D1%26skey%3D%26svalue%3D%26menu%3D107&sa=D&sntz=1&usg=AFQjCNH3fSIxxKxg3cgm4ZUKTxYdpsK2kA
-
     - title: "[NeurIPS'22] Learning to Generate Inversion-Resistant Model Explanations"
       contents: Previous studies have demonstrated that an adversary can reconstruct original images based on model explanations, thus leaking privacy-sensitive features. To this end, we present Generative Noise Injector for Model Explanations (GNIME), a novel defense framework that perturbs model explanations to minimize the risk of model inversion attacks while preserving the interpretabilities of the generated explanations. Specifically, we formulate the defense training as a two-player minimax game between the inversion attack network on the one hand and the noise generator network on the other. We demonstrate that GNIME significantly decreases the information leakage in model explanations, decreasing transferable classification accuracy in facial recognition models by up to 84.8% while preserving the original functionality of model explanations.
       photo: /images/GNIME.png
       paper: /papers/jeong_neurips22.pdf
+      code: https://github.com/WSP-LAB/GNIME
 
     - title: "[TDSC'22] Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
       contents: "Trigger set-based watermarking schemes have gained emerging attention as they provide a means to prove ownership for deep neural network model owners. In this paper, we argue that state-of-the-art trigger set-based watermarking algorithms do not achieve their designed goal of proving ownership. We conduct a comprehensive adversarial evaluation of 11 representative watermarking schemes against six of the existing attacks and demonstrate that each of these watermarking schemes lacks robustness against at least two attacks. We encourage follow-up studies to consider our guidelines when evaluating the robustness of their watermarking schemes via conducting comprehensive adversarial evaluation to demonstrate a meaningful upper bound of watermark robustness."
@@ -57,50 +54,57 @@ research:
 
   - subject: "R2. Building tools for finding vulnerabilities in server/client-side web applications"
     list:
+
+    - title: "[NDSS'23] DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
+      contents: This paper proposes DiffCSP, the first differential testing framework to find Content Security Policy (CSP) enforcement bugs involving JS execution. DiffCSP generates CSPs and a comprehensive set of HTML instances that exhibit all known ways of executing JS snippets. DiffCSP then executes each HTML instance for each generated policy across different browsers, thereby collecting inconsistent execution results. We demonstrate the efficacy of DiffCSP by finding 29 security bugs and eight functional bugs. We further identify the common root causes of CSP enforcement bugs. We confirm the risky trend of client browsers deriving completely different interpretations from the same CSPs, which raises security concerns. Our findings have contributed to patching 12 security bugs in major browsers, including Chrome and Safari.
+      photo: /images/DiffCSP.png
+      paper: /papers/wi-diffcsp-ndss23.pdf
+      code: https://github.com/WSP-LAB/DiffCSP
+
+   - title: "[USENIX Security'22] FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities"
+     contents: Exploiting a PHP object injection (POI) vulnerability often requires sophisticated property-oriented programming to shape an injection object. Existing off-the-shelf tools focus only on identifying potential POI vulnerabilities without confirming the presence of any exploit objects. To this end, we propose FUGIO, the first automatic exploit generation (AEG) tool for POI vulnerabilities. FUGIO conducts coarse-grained static and dynamic program analyses to generate a list of gadget chains that serve as blueprints for exploit objects. FUGIO then runs fuzzing campaigns using these identified chains and produces exploit objects. FUGIO generated 68 exploit objects from 30 applications containing known POI vulnerabilities with zero false positives. FUGIO also found two previously unreported POI vulnerabilities with five exploits, demonstrating its efficacy in generating functional exploits.
+     photo: /images/FUGIO.png
+     paper: /papers/park-fugio-sec22.pdf
+     code: https://github.com/WSP-LAB/FUGIO
+
+    - title: "[WWW'22] Link: Black-Box Detection of Cross-Site Scripting Vulnerabilities Using Reinforcement Learning"
+      contents: Off-the-shelf black-box web scanners suffer from unscalable testing as well as false negatives that stem from a testing strategy that employs fixed attack payloads, thus disregarding the exploitation of contexts to trigger vulnerabilities. To this end, we propose a novel method of adapting attack payloads to a target reflected XSS vulnerability using reinforcement learning (RL). We present Link, a general RL framework whose states, actions, and a reward function are designed to find reflected XSS vulnerabilities in a black-box and fully automatic manner. Link finds 45, 213, and 60 vulnerabilities with no false positives in Firing-Range, OWASP, and WAVSEP benchmarks, respectively. Link also finds 43 vulnerabilities in 12 real-world applications, demonstrating the promising efficacy of using RL in finding reflected XSS vulnerabilities.
+      photos: /images/Link.png
+      paper: /papers/lee-link-www22.pdf
+     code: https://github.com/WSP-LAB/Link
+
+    - title: "[WWW'22] HiddenCPG: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism of Code Property Graphs"
     - title: "[NDSS'21] The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
-      contents: The paper presents the design and implementation of FraudDetective, a dynamic testing frame- work that identifies ad fraud activities. FraudDetective computes a full stack trace from an observed ad fraud activity to a user event by connecting fragmented multiple stack traces, thus generating the causal relationships between user inputs and the observed fraudulent activity. We revised an Android Open Source Project (AOSP) to emit detected ad fraud activities along with their full stack traces, which help pinpoint the app modules responsible for the observed fraud activities. We evaluate FraudDetective on 48,172 apps from Google Play Store. FraudDetective reports that 74 apps are responsible for 34,453 ad fraud activities and find that 98.6% of the fraudulent behaviors originate from embedded third-party ad libraries.
-      media:
-      photo: /images/FraudDetective.png
-      paper:
-      code:
-      summary:
-
     - title: "[USENIX Security'20] Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
-      contents: JavaScript (JS) engine vulnerabilities pose significant security threats affecting billions of web browsers. In this project, we present Montage, the first NNLM-guided fuzzer for finding JS engine vulnerabilities. The key aspect of our technique is to transform a JS abstract syntax tree (AST) into a sequence of AST subtrees that can directly train prevailing NNLMs. We demonstrate that Montage is capable of generating valid JS tests, and show that it outperforms previous studies in terms of finding vulnerabilities. Montage found 37 real-world bugs, including three CVEs, in the latest JS engines, demonstrating its efficacy in finding JS engine bugs.
-      media:
-      photo: /images/Montage.png
-      paper: /papers/lee-montage-sec20.pdf
-      code: https://github.com/WSP-LAB/Montage
-      summary: https://gsis.kaist.ac.kr/board/view?bbs_id=research&bbs_sn=1058&page=1&skey=&svalue=&menu=183
-
     - title: "[NDSS'20] FUSE: Finding File Upload Bugs via Penetration Testing"
-      contents: An Unrestricted Executable File Upload (UEFU) vulnerability is a critical security threat that enables an adversary to upload her choice of a forged file to a target web server and e to conduct remote code execution of this  uploaded file via triggering its URL. We design and implement FUSE, a penetration testing tool designed to discover UFU and UEFU vulnerabilities in server-side PHP web applications. The goal of FUSE is to generate upload requests; each request becomes an exploit payload that triggers a UFU or UEFU vulnerability. FUSE discovered 30 previously unreported UEFU vulnerabilities, including 15 CVEs from 33 real-world web applications, thereby demonstrating its efficacy in finding code execution bugs via file uploads.
-      media: https://www.zdnet.com/article/academics-find-30-file-upload-vulnerabilities-in-23-web-apps-cmses-and-forums/
-      photo: /images/FUSE.png
-      paper: /papers/lee-fuse-ndss20.pdf
-      code: https://github.com/WSP-LAB/FUSE
-      summary: https://gsis.kaist.ac.kr/board/view?bbs_id=research&bbs_sn=1045&page=1&skey=&svalue=&menu=183
 
   - subject: "R3. Finding security/privacy vulnerabilities in web services"
     list:
     - title: "[USENIX WOOT'19] Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO"
       contents: We investigate the design architecture of EOS.IO. Based on this investigation, we introduce four attacks whose root causes stem from the unique characteristics of EOS.IO, including intentionally slowing down the block creation time—which can disrupt the essential functions of its blockchain and incapacitate the entire EOS.IO system. We  also find that an adversary can partially freeze the execution of a target smart contract or maliciously consume all the resources of a target user with crafted requests. We report all the identified threats to the EOS.IO foundation, one of which is confirmed to be fatal. Finally, we discuss possible mitigations against the proposed attacks.
-      media:
       photo: /images/EOS.png
       paper: /papers/lee-eos-woot19.pdf
-      code:
-      summary:
 
     - title: "[CCS'18] Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications"
       contents: Progressive Web App (PWA) is a new generation of Web application designed to provide native app-like browsing experiences even when a browser is offline. We conduct the first systematic study of the security and privacy aspects unique to PWAs. We identify security flaws in main browsers as well as design flaws in popular third-party push services, that exacerbate the phishing risk. We introduce a new side-channel attack that infers the victim’s history of visited PWAs. The proposed attack exploits the offline browsing feature of PWAs using a cache. We demonstrate a cryptocurrency mining attack which abuses service workers. Defenses and recommendations to mitigate the identified security and privacy risks are suggested with in-depth understanding.
-      media:
       photo: /images/PPP.png
       paper: /papers/son-ppp-ccs18.pdf
       code: https://github.com/spostman/ppp-ccs2018
-      summary:
 
   - subject: "R4. Analyzing online scam/criminal activities occurring on the Internet"
     list:
+    - title: "[WWW'23] RICC: Robust Collective Classification of Sybil Accounts"
+      contents: A Sybil attack is a critical threat that undermines the trust and integrity of web services by creating and exploiting a large number of fake (i.e., Sybil) accounts. To mitigate this threat, previous studies have proposed leveraging collective classification to detect Sybil accounts. Recently, researchers have demonstrated that state-of-the-art adversarial attacks are able to bypass existing collective classification methods. To this end, we propose RICC, the first robust collective classification framework, designed to identify adversarial Sybil accounts created by adversarial attacks. RICC significantly outperforms all existing Sybil detection methods, demonstrating superior robustness and efficacy in the collective classification of Sybil accounts.
+      photo: /images/RICC.png
+      paper: /papers/shin-ricc-www23.pdf
+      code: https://github.com/WSP-LAB/RICC
+
+    - title: "[MobiSys'22] HearMeOut: Detecting Voice Phishing Activities in Android"
+      contents: In South Korea, voice phishing has been proliferating with the advent of voice phishing apps. However, the voice phishing functionalities that these abusive apps implement are largely understudied. To this end, we analyze 1,017 voice phishing apps and reveal new phishing functionalities: outgoing call redirection, call screen overlay, and fake call voice. We further investigate implementations of these fatal functionalities to distinguish their malicious behaviors from their corresponding behaviors in benign apps. We then propose HearMeOut, an Android system-level service that detects phishing behaviors that phishing apps conduct in runtime and blocks the detected behaviors. HearMeOut achieves high accuracy with no false positives or negatives in classifying phishing behaviors while exhibiting an unnoticeable latency of 0.36 ms on average. Our user study demonstrates that HearMeOut is able to prevent 100% of participants from being phished by providing active warnings.
+      photo: /images/HearMeOut.png
+      paper: /papers/kim-hearmeout-mobisys22.pdf
+      code: https://github.com/WSP-LAB/hearmeout
+
     - title: "[WWW'19] Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
       contents: We conducted an in-depth measurement study to demystify the prevalent phishing websites on the Dark Web. We analyzed the text content of 28,928 HTTP Tor hidden services hosting 21 million dark webpages and confirmed 901 phishing domains. We also discovered a trend on the Dark Web in which service providers perceive dark web domains as their service brands. This trend exacerbates the risk of phishing for their service users who remember only a partial Tor hidden service address. Our work facilitates a better understanding of the phishing risks on the Dark Web and encourages further research on establishing an authentic and reliable service on the Dark Web.
       media:
