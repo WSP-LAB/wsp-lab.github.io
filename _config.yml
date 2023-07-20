@@ -60,7 +60,7 @@ research:
     - title: "[NDSS'21] The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
       contents: The paper presents the design and implementation of FraudDetective, a dynamic testing frame- work that identifies ad fraud activities. FraudDetective computes a full stack trace from an observed ad fraud activity to a user event by connecting fragmented multiple stack traces, thus generating the causal relationships between user inputs and the observed fraudulent activity. We revised an Android Open Source Project (AOSP) to emit detected ad fraud activities along with their full stack traces, which help pinpoint the app modules responsible for the observed fraud activities. We evaluate FraudDetective on 48,172 apps from Google Play Store. FraudDetective reports that 74 apps are responsible for 34,453 ad fraud activities and find that 98.6% of the fraudulent behaviors originate from embedded third-party ad libraries.
       media:
-      photo: /images/Abuser.png
+      photo: /images/FraudDetective.png
       paper:
       code:
       summary:
