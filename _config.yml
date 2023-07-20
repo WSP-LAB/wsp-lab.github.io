@@ -76,16 +76,9 @@ research:
       code: https://github.com/WSP-LAB/Link
 
     - title: "[WWW'22] HiddenCPG: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism of Code Property Graphs"
-      paper: /papers/wi-hiddencpg-www22.pdf
-      code: https://github.com/WSP-LAB/HiddenCPG
     - title: "[NDSS'21] The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud"
-      paper: /papers/kim-fraud_detective-ndss21.pdf
     - title: "[USENIX Security'20] Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
-      paper: /papers/lee-montage-sec20.pdf
-      code: https://github.com/WSP-LAB/Montage
     - title: "[NDSS'20] FUSE: Finding File Upload Bugs via Penetration Testing"
-      paper: /papers/lee-fuse-ndss20.pdf
-      code: https://github.com/WSP-LAB/FUSE
 
   - subject: "R3. Finding security/privacy vulnerabilities in web services"
     list:
