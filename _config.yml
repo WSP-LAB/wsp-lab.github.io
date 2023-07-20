@@ -54,14 +54,13 @@ research:
 
   - subject: "R2. Building tools for finding vulnerabilities in server/client-side web applications"
     list:
-
     - title: "[NDSS'23] DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
       contents: "This paper proposes DiffCSP, the first differential testing framework to find Content Security Policy (CSP) enforcement bugs involving JS execution. DiffCSP generates CSPs and a comprehensive set of HTML instances that exhibit all known ways of executing JS snippets. DiffCSP then executes each HTML instance for each generated policy across different browsers, thereby collecting inconsistent execution results. We demonstrate the efficacy of DiffCSP by finding 29 security bugs and eight functional bugs. We further identify the common root causes of CSP enforcement bugs. We confirm the risky trend of client browsers deriving completely different interpretations from the same CSPs, which raises security concerns. Our findings have contributed to patching 12 security bugs in major browsers, including Chrome and Safari."
       photo: /images/DiffCSP.png
       paper: /papers/wi-diffcsp-ndss23.pdf
       code: https://github.com/WSP-LAB/DiffCSP
 
-   - title: "[USENIX Security'22] FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities"
+    - title: "[USENIX Security'22] FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities"
      contents: "Exploiting a PHP object injection (POI) vulnerability often requires sophisticated property-oriented programming to shape an injection object. Existing off-the-shelf tools focus only on identifying potential POI vulnerabilities without confirming the presence of any exploit objects. To this end, we propose FUGIO, the first automatic exploit generation (AEG) tool for POI vulnerabilities. FUGIO conducts coarse-grained static and dynamic program analyses to generate a list of gadget chains that serve as blueprints for exploit objects. FUGIO then runs fuzzing campaigns using these identified chains and produces exploit objects. FUGIO generated 68 exploit objects from 30 applications containing known POI vulnerabilities with zero false positives. FUGIO also found two previously unreported POI vulnerabilities with five exploits, demonstrating its efficacy in generating functional exploits."
      photo: /images/FUGIO.png
      paper: /papers/park-fugio-sec22.pdf
@@ -107,10 +106,8 @@ research:
 
     - title: "[WWW'19] Doppelgängers on the Dark Web: A Large-scale Assessment on Phishing Hidden Web Services"
       contents: "We conducted an in-depth measurement study to demystify the prevalent phishing websites on the Dark Web. We analyzed the text content of 28,928 HTTP Tor hidden services hosting 21 million dark webpages and confirmed 901 phishing domains. We also discovered a trend on the Dark Web in which service providers perceive dark web domains as their service brands. This trend exacerbates the risk of phishing for their service users who remember only a partial Tor hidden service address. Our work facilitates a better understanding of the phishing risks on the Dark Web and encourages further research on establishing an authentic and reliable service on the Dark Web."
-      media:
       photo: /images/Doppelgängers.png
       paper: /papers/yoon-www19.pdf
-      code:
       summary: https://cs.kaist.ac.kr/board/view?bbs_id=news&bbs_sn=8793&page=1&skey=subject&svalue=%EC%86%90%EC%88%98%EC%97%98&menu=83
 
 
