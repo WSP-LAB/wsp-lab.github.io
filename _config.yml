@@ -221,7 +221,8 @@ publications:
     list:
     - title: "Margin-based Neural Network Watermarking"
       authors: Byungjoo Kim, Suyoung Lee, Seanie Lee, Sooel Son, and Sung Ju Hwang
-      published: false
+      link: https://proceedings.mlr.press/v202/kim23o/kim23o.pdf
+      published: true
       toptier_cs: true
       booktitle: "40th International Conference on Machine Learning (ICML 2023)"
     - title: "RICC: Robust Collective Classification of Sybil Accounts"
