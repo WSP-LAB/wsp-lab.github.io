@@ -462,7 +462,7 @@ teaching:
         link: https://docs.google.com/document/d/1oRNC_twHU3eEsNxfN-EyKpqWlSH_MaWfzF5Zuo1VRkg
   - name: Web Service Security and Privacy
     code: IS542
-    link: https://docs.google.com/document/d/1786AhpYOhtmrKgxZ0jbfg9UFLr3SXyqmoJDdWG_hyzs/preview?pli=1#
+    link:
     semesters:
       - name: 2022 Fall
         link: https://spostman.github.io/is542
