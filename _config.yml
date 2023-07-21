@@ -430,32 +430,52 @@ publications:
       booktitle: 6th International ICST Conference on Security and Privacy in Communication Networks (SecureCOMM 2010)
 
 teaching:
-  - name: Machine Learning Application Trends in Information Security
-    code: CS492
+  - name: Web Security Attack Laboratory
+    code: CS447
     link:
-    semastors:
-      - name: 2019 Fall
-        link: https://spostman.github.io/cs492
-  - name: Web Service Security and Privacy
-    code: IS542
+    semesters:
+      - name: 2023 Spring
+        link: https://spostman.github.io/cs447
+      - name: 2022 Spring
+        link: https://spostman.github.io/cs492-spring2022
+      - name: 2021 Fall
+        link: https://spostman.github.io/cs492-fall2021
+  - name: Data Structure
+    code: CS206
     link:
-    semastors:
-      - name: 2019 Spring
-        link: https://docs.google.com/document/d/e/2PACX-1vQM71g1RWcrXYfdEzBvGGEY3jbBcUDOTdG3Y3e9f0s2_wRPXJbtc0ydO3bZ2pdTBrtB1Y87jB4ahJdL/pub
-  - name: Web & Mobile Service Security
-    code: IS593
-    link: https://docs.google.com/document/d/1786AhpYOhtmrKgxZ0jbfg9UFLr3SXyqmoJDdWG_hyzs/preview?pli=1#
-    semastors:
-      - name: 2017 Fall
-        link: https://docs.google.com/document/d/1786AhpYOhtmrKgxZ0jbfg9UFLr3SXyqmoJDdWG_hyzs/preview?pli=1
-      - name: 2018 Spring
-        link:
+    semesters:
+      - name: 2021 Spring
+        link: https://spostman.github.io/cs206c
+      - name: 2020 Fall
+        link: https://spostman.github.io/cs206c-fall2020
   - name: Machine Learning Application Trends in Information Security
     code: IS593
     link:
-    semastors:
+    semesters:
+      - name: 2023 Spring
+        link: https://spostman.github.io/is593a
+      - name: 2020 Fall
+        link: https://spostman.github.io/is593a-fall2020
+      - name: 2019 Fall (CS492)
+        link: https://spostman.github.io/cs492-fall2019
       - name: 2018 Fall
         link: https://docs.google.com/document/d/1oRNC_twHU3eEsNxfN-EyKpqWlSH_MaWfzF5Zuo1VRkg
+  - name: Web Service Security and Privacy
+    code: IS542
+    link: https://docs.google.com/document/d/1786AhpYOhtmrKgxZ0jbfg9UFLr3SXyqmoJDdWG_hyzs/preview?pli=1#
+    semesters:
+      - name: 2022 Fall
+        link: https://spostman.github.io/is542
+      - name: 2021 Spring
+        link: https://spostman.github.io/is542-spring2021
+      - name: 2020 Spring
+        link: https://spostman.github.io/is542-spring2020
+      - name: 2019 Spring
+        link: https://docs.google.com/document/u/1/d/e/2PACX-1vQM71g1RWcrXYfdEzBvGGEY3jbBcUDOTdG3Y3e9f0s2_wRPXJbtc0ydO3bZ2pdTBrtB1Y87jB4ahJdL/pub
+      - name: 2018 Spring
+        link:
+      - name: 2017 Fall
+        link:
 
 sass:
   style: :expanded
