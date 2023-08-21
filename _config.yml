@@ -123,9 +123,6 @@ people_prof:
   homepage: https://sites.google.com/site/ssonkaist/home
 
 people_phd:
-  - name: Seongil Wi
-    photo: /images/seongil.jpg
-    homepage: https://seongil-wi.github.io/
   - name: Suyoung Lee
     photo: /images/swimming.png
     homepage: https://leeswimming.com/
@@ -196,9 +193,15 @@ people_alumni:
     homepage:
     degree: Master
     work: Deeping Source, South Korea
+  - name: Seongil Wi
+    homepage: https://seongil-wi.github.io/
+    degree: Ph.D.
+    work: Assistant Professor at UNIST, South Korea
 
 news:
   list:
+  - date: Aug, 2023
+    comments: Seongil Wi is appointed as an <strong>assistant professor</strong> at UNIST!
   - date: Apr, 2023
     comments: A paper accepted in <strong>ICML'23</strong>!
   - date: Jan, 2023
