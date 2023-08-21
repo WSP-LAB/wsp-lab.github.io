@@ -197,9 +197,9 @@ layout: default
 <ul>
 {% for person in site.people_alumni %}
 {% if person.homepage %}
-  <li class="alumni_item"><a href="{{ person.homepage }}">{{ person.name }}</a>, {{ person.degree }}, now at {{ person.work }}.</li>
+  <li class="alumni_item"><a href="{{ person.homepage }}">{{ person.name }}</a>, {{ person.degree }}, {{ person.work }}.</li>
 {% else %}
-  <li class="alumni_item">{{ person.name }}, {{ person.degree }}, now at {{ person.work }}.</li>
+  <li class="alumni_item">{{ person.name }}, {{ person.degree }}, {{ person.work }}.</li>
 {% endif %}
 {% endfor %}
 </ul>
