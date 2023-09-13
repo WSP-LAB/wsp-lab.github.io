@@ -200,6 +200,8 @@ people_alumni:
 
 news:
   list:
+  - date: Sep, 2023
+    comments: A paper accepted in <strong>CCS'23</strong>!
   - date: Aug, 2023
     comments: Seongil Wi is appointed as an <strong>assistant professor</strong> at UNIST!
   - date: Apr, 2023
@@ -222,6 +224,11 @@ news:
 publications:
   - year: 2023
     list:
+    - title: "AdCPG: Classifying JavaScript Code Property Graphs with Explanations for Ad and Tracker Blocking"
+      authors: Changmin Lee and Sooel Son
+      published: false
+      toptier_security: true
+      booktitle: "30th ACM Conference on Computer and Communications Security (CCS 2030)"
     - title: "Margin-based Neural Network Watermarking"
       authors: Byungjoo Kim, Suyoung Lee, Seanie Lee, Sooel Son, and Sung Ju Hwang
       link: https://proceedings.mlr.press/v202/kim23o/kim23o.pdf
