@@ -228,7 +228,7 @@ publications:
       authors: Changmin Lee and Sooel Son
       published: false
       toptier_security: true
-      booktitle: "30th ACM Conference on Computer and Communications Security (CCS 2030)"
+      booktitle: "30th ACM Conference on Computer and Communications Security (CCS 2023)"
     - title: "Margin-based Neural Network Watermarking"
       authors: Byungjoo Kim, Suyoung Lee, Seanie Lee, Sooel Son, and Sung Ju Hwang
       link: https://proceedings.mlr.press/v202/kim23o/kim23o.pdf
