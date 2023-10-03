@@ -201,6 +201,8 @@ people_alumni:
 news:
   list:
   - date: Sep, 2023
+    comments: A paper accepted in <strong>NeurIPS'23</strong>!
+  - date: Sep, 2023
     comments: A paper accepted in <strong>CCS'23</strong>!
   - date: Aug, 2023
     comments: Seongil Wi is appointed as an <strong>assistant professor</strong> at UNIST!
@@ -224,6 +226,11 @@ news:
 publications:
   - year: 2023
     list:
+    - title: "Effective Targeted Attacks for Adversarial Self-Supervised Learning"
+      authors: Minseon Kim, Hyeonjeong Ha, Sooel Son, and Sung Ju Hwang
+      published: false
+      toptier_cs: true
+      booktitle: "37th Annual Conference on Neural Information Processing Systems (NeurIPS 2023)"
     - title: "AdCPG: Classifying JavaScript Code Property Graphs with Explanations for Ad and Tracker Blocking"
       authors: Changmin Lee and Sooel Son
       published: false
