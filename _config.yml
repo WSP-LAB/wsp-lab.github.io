@@ -230,12 +230,15 @@ publications:
     list:
     - title: "Effective Targeted Attacks for Adversarial Self-Supervised Learning"
       authors: Minseon Kim, Hyeonjeong Ha, Sooel Son, and Sung Ju Hwang
-      published: false
+      link: https://openreview.net/pdf?id=2f0dlMZlNb
+      published: true
       toptier_cs: true
       booktitle: "37th Annual Conference on Neural Information Processing Systems (NeurIPS 2023)"
     - title: "AdCPG: Classifying JavaScript Code Property Graphs with Explanations for Ad and Tracker Blocking"
       authors: Changmin Lee and Sooel Son
-      published: false
+      link: https://wsp-lab.github.io/papers/lee-adcpg-ccs23.pdf
+      code: https://github.com/WSP-LAB/AdCPG
+      published: true
       toptier_security: true
       booktitle: "30th ACM Conference on Computer and Communications Security (CCS 2023)"
     - title: "Margin-based Neural Network Watermarking"
