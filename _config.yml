@@ -132,17 +132,11 @@ people_phd:
   - name: Soyoung Lee
     photo: /images/soyoung.jpg
     homepage:
-
-people_master:
-  - name: Jihwan Kim
-    photo: /images/jihwan.jpg
-    homepage: https://github.com/mdsnins
-  - name: Beomsoo Kim
-    photo: /images/beomsoo.jpg
-    homepage:
   - name: Dongwon Shin
     photo: /images/dongwon.jpg
     homepage: https://godeastone.github.io/
+
+people_master:
   - name: Kiwon Chung
     photo: /images/kiwon.jpg
     homepage:
@@ -197,6 +191,14 @@ people_alumni:
     homepage: https://seongil-wi.github.io/
     degree: Ph.D.
     work: now Assistant Professor at UNIST, South Korea
+  - name: Jihwan Kim
+    homepage: https://github.com/mdsnins
+    degree: Master
+    work: now at ENKI, South Korea
+  - name: Beomsoo Kim
+    homepage:
+    degree: Master
+    work: now at Hyundai Motor Company, South Korea
 
 news:
   list:
