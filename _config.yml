@@ -152,6 +152,9 @@ people_master:
   - name: Junkyu Kang
     photo: /images/junkyu.png
     homepage:
+  - name: Yoonha Bahng
+    photo: /images/yoonha.png
+    homepage:
 
 people_alumni:
   - name: Taekjin Lee
