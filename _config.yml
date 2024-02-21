@@ -149,6 +149,9 @@ people_master:
   - name: Sungwoo Jeon
     photo: /images/sungwoo.jpg
     homepage:
+  - name: Junkyu Kang
+    photo: /images/junkyu.png
+    homepage:
 
 people_alumni:
   - name: Taekjin Lee
