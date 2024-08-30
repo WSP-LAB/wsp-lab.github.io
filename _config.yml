@@ -137,12 +137,6 @@ people_phd:
     homepage: https://godeastone.github.io/
 
 people_master:
-  - name: Kiwon Chung
-    photo: /images/kiwon.jpg
-    homepage:
-  - name: Changmin Lee
-    photo: /images/changmin.png
-    homepage:
   - name: Seongho Keum
     photo: /images/seongho.jpg
     homepage:
@@ -205,6 +199,14 @@ people_alumni:
     homepage:
     degree: Master
     work: now at Hyundai Motor Company, South Korea
+  - name: Kiwon Chung
+    homepage:
+    degree: Master
+    work:
+  - name: Changmin Lee
+    homepage:
+    degree: Master
+    work:
 
 news:
   list:
