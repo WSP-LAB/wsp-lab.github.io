@@ -240,7 +240,7 @@ publications:
       authors: Dongwon Shin, Suyoung Lee, Sanghyun Hong, and Sooel Son
       published: false
       booktitle: "40th Annual Computer Security Applications Conference (ACSAC 2024)"      
-    - title: "Targeted Model Inversion: Distilling style encoded in predictions"
+    - title: "Targeted Model Inversion: Distilling Style Encoded in Predictions"
       authors: Hoyong Jeong, Kiwon Chung, Sung Ju Hwang, and Sooel Son
       link: https://wsp-lab.github.io/papers/jeong-tmi-cose24.pdf
       published: true
