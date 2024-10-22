@@ -234,6 +234,17 @@ news:
     comments: Two papers accepted in <strong>WWW'22</strong>!
 
 publications:
+  - year: 2024
+    list:
+    - title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations"
+      authors: Dongwon Shin, Suyoung Lee, Sanghyun Hong, and Sooel Son
+      published: false
+      booktitle: "40th Annual Computer Security Applications Conference (ACSAC 2024)"      
+    - title: "Targeted Model Inversion: Distilling style encoded in predictions"
+      authors: Hoyong Jeong, Kiwon Chung, Sung Ju Hwang, and Sooel Son
+      link: https://wsp-lab.github.io/papers/jeong-tmi-cose24.pdf
+      published: true
+      booktitle: "Elsevier Computers & Security (Journal COSE 2024)"
   - year: 2023
     list:
     - title: "Effective Targeted Attacks for Adversarial Self-Supervised Learning"
