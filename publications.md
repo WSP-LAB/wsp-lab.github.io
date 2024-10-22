@@ -3,8 +3,8 @@ layout: default
 ---
 ## Publications
 <ul>
- <li><font style="color:#0b5394;"><strong>[*Top-tier] Security Top Conferences:</strong></font> S&P (Oakland), ACM CCS, USENIX Security, NDSS </li>
- <li><font style="color:#b300b3;"><strong>[*Top-tier] Published CS Top Conferences:</strong></font> WWW, PLDI, OOPSLA, MobiSys </li>
+ <li><font style="color:#0b5394;"><strong>[*Top-tier] Security Top Conferences:</strong></font> S&P (Oakland), ACM CCS, USENIX Security, and NDSS </li>
+ <li><font style="color:#b300b3;"><strong>[*Top-tier] Published CS Top Conferences:</strong></font> WWW, NeurIPS, ICML, PLDI, OOPSLA, and MobiSys </li>
 </ul> 
 {% for pub_group in site.publications %}
 <h3>{{ pub_group.year }}</h3>
