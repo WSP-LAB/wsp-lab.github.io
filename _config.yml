@@ -210,6 +210,10 @@ people_alumni:
 
 news:
   list:
+  - date: Oct, 2024
+    comments: A paper accepted in <strong>ACSAC'24</strong>!
+  - date: Aug, 2024
+    comments: A paper published at <strong>Computers & Security 2024</strong>!  
   - date: Sep, 2023
     comments: A paper accepted in <strong>NeurIPS'23</strong>!
   - date: Sep, 2023
