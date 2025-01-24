@@ -238,6 +238,15 @@ news:
     comments: Two papers accepted in <strong>WWW'22</strong>!
 
 publications:
+  - year: 2025
+    - title: "AdvPaint: Protecting Images from Inpainting Manipulation via Adversarial Attention Disruption"
+      authors: Joonsung Jeon, Woo Jae Kim, Suhyeon Ha, Sooel Son, and Sung-eui Yoon
+      published: false
+      booktitle: "13th International Conference on Learning Representations (ICLR 2025)"
+    - title: "Evaluating Robustness of Reference-based Phishing Detectors"
+      authors: Eunjin Roh, Sungwoo Jeon, Sooel Son, and Sanghyun Hong
+      published: false
+      booktitle: "20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2025)"
   - year: 2024
     list:
     - title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations"
