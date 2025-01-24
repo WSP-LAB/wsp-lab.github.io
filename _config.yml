@@ -292,6 +292,7 @@ publications:
       booktitle: "The Web Conference 2023: Security, Privacy, and Trust Research Track (WWW 2023)"
     - title: "DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing"
       link: https://wsp-lab.github.io/papers/wi-diffcsp-ndss23.pdf
+      code: https://github.com/WSP-LAB/DiffCSP
       authors: Seongil Wi, Trung Tin Nguyen, Jihwan Kim, Ben Stock, and Sooel Son
       published: true
       toptier_security: true
@@ -301,6 +302,7 @@ publications:
     - title: "Learning to Generate Inversion-Resistant Model Explanations"
       authors: Hoyong Jeong, Suyoung Lee, Sung Ju Hwang, and Sooel Son
       link: https://wsp-lab.github.io/papers/jeong_neurips22.pdf
+      code: https://github.com/WSP-LAB/GNIME
       published: true
       toptier_cs: true
       booktitle: "36th Annual Conference on Neural Information Processing Systems (NeurIPS 2022)"
@@ -319,6 +321,7 @@ publications:
     - title: "HearMeOut: Detecting Voice Phishing Activities in Android"
       authors: Joongyum Kim, Jihwan Kim, Seongil Wi, Yongdae Kim, and Sooel Son
       link: https://wsp-lab.github.io/papers/kim-hearmeout-mobisys22.pdf
+      code: https://github.com/WSP-LAB/hearmeout
       published: true
       toptier_cs: true
       booktitle: "20th ACM International Conference on Mobile Systems, Applications, and Services 2022 (MobiSys 2022)"
