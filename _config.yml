@@ -239,9 +239,11 @@ news:
 
 publications:
   - year: 2025
+    list:
     - title: "AdvPaint: Protecting Images from Inpainting Manipulation via Adversarial Attention Disruption"
       authors: Joonsung Jeon, Woo Jae Kim, Suhyeon Ha, Sooel Son, and Sung-eui Yoon
       published: false
+      toptier_cs: true
       booktitle: "13th International Conference on Learning Representations (ICLR 2025)"
     - title: "Evaluating Robustness of Reference-based Phishing Detectors"
       authors: Eunjin Roh, Sungwoo Jeon, Sooel Son, and Sanghyun Hong
