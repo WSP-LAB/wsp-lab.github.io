@@ -210,6 +210,10 @@ people_alumni:
 
 news:
   list:
+  - date: Jan, 2025
+    comments: A paper accepted in <strong>ICLR'25</strong>!
+  - date: Jan, 2025
+    comments: A paper accepted in <strong>AsiaCCS'25</strong>!
   - date: Oct, 2024
     comments: A paper accepted in <strong>ACSAC'24</strong>!
   - date: Aug, 2024
