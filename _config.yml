@@ -135,19 +135,25 @@ people_phd:
   - name: Dongwon Shin
     photo: /images/dongwon.jpg
     homepage: https://godeastone.github.io/
-
-people_master:
   - name: Seongho Keum
     photo: /images/seongho.jpg
     homepage:
   - name: Sungwoo Jeon
     photo: /images/sungwoo.jpg
     homepage:
+
+people_master:
   - name: Junkyu Kang
     photo: /images/junkyu.png
     homepage:
   - name: Yoonha Bahng
     photo: /images/yoonha.png
+    homepage:
+  - name: Changoo Lee
+    photo: /images/changoo.png
+    homepage:
+  - name: Yongbi Son
+    photo: /images/yongbi.jpg
     homepage:
 
 people_alumni:
@@ -202,11 +208,11 @@ people_alumni:
   - name: Kiwon Chung
     homepage:
     degree: Master
-    work:
+    work: now at ClumL, South Korea
   - name: Changmin Lee
     homepage:
     degree: Master
-    work:
+    work: now at Rebellions, South Korea
 
 news:
   list:
