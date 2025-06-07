@@ -216,6 +216,10 @@ people_alumni:
 
 news:
   list:
+  - date: June, 2025
+    comments: Two papers accepted in <strong>USENIX Security'25</strong>!
+  - date: April, 2025
+    comments: A paper accepted in <strong>AsiaCCS'25</strong>!
   - date: Jan, 2025
     comments: A paper accepted in <strong>ICLR'25</strong>!
   - date: Jan, 2025
