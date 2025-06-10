@@ -275,7 +275,7 @@ publications:
       toptier_cs: true
       booktitle: "13th International Conference on Learning Representations (ICLR 2025)"
     - title: "Evaluating Robustness of Reference-based Phishing Detectors"
-      authors: Eunjin Roh, Sungwoo Jeon, Sooel Son, and Sanghyun Hong
+      authors: Eunjin Roh, Sungwoo Jeon (co-leading author), Sooel Son, and Sanghyun Hong
       published: false
       booktitle: "20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2025)"
   - year: 2024
