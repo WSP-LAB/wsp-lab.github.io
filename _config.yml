@@ -216,6 +216,8 @@ people_alumni:
 
 news:
   list:
+  - date: Aug, 2025
+    comments: A paper accepted in <strong>NDSS'26</strong>!
   - date: June, 2025
     comments: Two papers accepted in <strong>USENIX Security'25</strong>!
   - date: April, 2025
@@ -255,10 +257,10 @@ publications:
   - year: 2026
     list:
     - title: "Connecting the Dots: An Investigative Study on Linking Private User Data Across Messaging Apps"
-      authors: Junkyu Kang, Soyoung Lee, Yonghwi Kwon, and Sooel Son
+      authors: Junkyu Kang, Soyoung Lee (co-leading author), Yonghwi Kwon, and Sooel Son
       published: false
       toptier_security: true
-      booktitle: "34th USENIX Security Symposium (USENIX Security 2025)"
+      booktitle: "33th Network & Distributed System Security Symposium (NDSS 2026)"
   - year: 2025
     list:
     - title: "AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields"
