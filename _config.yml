@@ -252,31 +252,50 @@ news:
     comments: Two papers accepted in <strong>WWW'22</strong>!
 
 publications:
+  - year: 2026
+    list:
+    - title: "Connecting the Dots: An Investigative Study on Linking Private User Data Across Messaging Apps"
+      authors: Junkyu Kang, Soyoung Lee, Yonghwi Kwon, and Sooel Son
+      published: false
+      toptier_security: true
+      booktitle: "34th USENIX Security Symposium (USENIX Security 2025)"
   - year: 2025
     list:
+    - title: "AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields"
+      authors: Woo Jae Kim, Kyu Beom Han, Yoonki Cho, Youngju Na, Junsik Jung, Sooel Son, and Sung-eui Yoon
+      published: false
+      toptier_security: false
+      booktitle: "36th British Machine Vision Conference (BMVC 2025)"
     - title: "Private Investigator: Extracting Personally Identifiable Information from Large-Language Models Using Optimized Prompts"
       authors: Seongho Keum, Dongwon Shin, Leo Marchyok, Sanghyun Hong, and Sooel Son
-      published: false
+      published: true
+      link: https://wsp-lab.github.io/papers/keum-privateinvestigator-sec25.pdf
+      code: https://github.com/WSP-LAB/PrivateInvestigator
       toptier_security: true
       booktitle: "34th USENIX Security Symposium (USENIX Security 2025)"
     - title: "Refusal Is Not an Option: Unlearning Safety Alignment of LLMs"
       authors: Minkyoo Song, Hanna Kim, Jaehan Kim, Seungwon Shin, and Sooel Son
-      published: false
+      published: true
+      link: https://wsp-lab.github.io/papers/song-sec25.pdf
       toptier_security: true
       booktitle: "34th USENIX Security Symposium (USENIX Security 2025)"
     - title: "TrustyMon: Practical Detection of DOM-based Cross-Site Scripting Attacks Using Trusted Types"
       authors: Sunnyeo Park, Jihwan Kim, Seongho Keum, Hyunjoon Lee, and Sooel Son
-      published: false
+      published: true
+      link: https://wsp-lab.github.io/papers/park-trustymon-asiaccs25.pdf
+      code: https://github.com/WSP-LAB/TrustyMon
       toptier_cs: false
       booktitle: "20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2025)"
     - title: "AdvPaint: Protecting Images from Inpainting Manipulation via Adversarial Attention Disruption"
       authors: Joonsung Jeon, Woo Jae Kim, Suhyeon Ha, Sooel Son, and Sung-eui Yoon
-      published: false
+      published: true
+      link: https://wsp-lab.github.io/papers/jeon-advpaint-iclr25.pdf
       toptier_cs: true
       booktitle: "13th International Conference on Learning Representations (ICLR 2025)"
     - title: "Evaluating Robustness of Reference-based Phishing Detectors"
       authors: Eunjin Roh, Sungwoo Jeon (co-leading author), Sooel Son, and Sanghyun Hong
-      published: false
+      published: true
+      link: https://wsp-lab.github.io/papers/jeon-asiaccs25.pdf
       booktitle: "20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2025)"
   - year: 2024
     list:
