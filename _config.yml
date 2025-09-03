@@ -155,6 +155,9 @@ people_master:
   - name: Yongbi Son
     photo: /images/yongbi.png
     homepage:
+  - name: Hyunjoon Lee
+    photo: /images/hyunjoon.png
+    homepage:
 
 people_alumni:
   - name: Taekjin Lee
