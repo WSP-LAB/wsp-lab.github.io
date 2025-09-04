@@ -278,7 +278,7 @@ publications:
       published: false
       toptier_security: false
       booktitle: "36th British Machine Vision Conference (BMVC 2025)"
-    - title: "Private Investigator: Extracting Personally Identifiable Information from Large-Language Models Using Optimized Prompts"
+    - title: "Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts"
       authors: Seongho Keum, Dongwon Shin, Leo Marchyok, Sanghyun Hong, and Sooel Son
       published: true
       link: https://wsp-lab.github.io/papers/keum-privateinvestigator-sec25.pdf
