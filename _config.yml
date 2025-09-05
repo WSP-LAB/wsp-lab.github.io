@@ -226,6 +226,8 @@ people_alumni:
 
 news:
   list:
+  - date: Sep, 2025
+    comments: A paper accepted in <strong>ACSAC'25</strong>!
   - date: Aug, 2025
     comments: A paper accepted in <strong>NDSS'26</strong>!
   - date: June, 2025
@@ -273,6 +275,10 @@ publications:
       booktitle: "33th Network & Distributed System Security Symposium (NDSS 2026)"
   - year: 2025
     list:
+    - title: "MoEvil: Poisoning Expert to Compromise the Safety of Mixture-of-Experts LLMs"
+      authors: Jaehan Kim, Seung Ho Na, Minkyoo Song, Seungwon Shin, and Sooel Son
+      published: false
+      booktitle: "41th Annual Computer Security Applications Conference (ACSAC 2025)"
     - title: "AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields"
       authors: Woo Jae Kim, Kyu Beom Han, Yoonki Cho, Youngju Na, Junsik Jung, Sooel Son, and Sung-eui Yoon
       published: false
