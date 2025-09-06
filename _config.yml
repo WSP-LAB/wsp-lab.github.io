@@ -56,10 +56,6 @@ research:
       code: https://github.com/WSP-LAB/GNIME
 
     - title: "[TDSC'22] Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
-      contents: "Trigger set-based watermarking schemes have gained emerging attention as they provide a means to prove ownership for deep neural network model owners. In this paper, we argue that state-of-the-art trigger set-based watermarking algorithms do not achieve their designed goal of proving ownership. We conduct a comprehensive adversarial evaluation of 11 representative watermarking schemes against six of the existing attacks and demonstrate that each of these watermarking schemes lacks robustness against at least two attacks. We encourage follow-up studies to consider our guidelines when evaluating the robustness of their watermarking schemes via conducting comprehensive adversarial evaluation to demonstrate a meaningful upper bound of watermark robustness."
-      photo: /images/wmeval.png
-      horizontal: true
-      paper: /papers/lee-tdsc22.pdf
 
   - subject: "R2. Building tools for finding vulnerabilities in server/client-side web applications"
     list:
