@@ -275,6 +275,7 @@ publications:
       authors: Jaehan Kim, Seung Ho Na, Minkyoo Song, Seungwon Shin, and Sooel Son
       published: false
       booktitle: "41th Annual Computer Security Applications Conference (ACSAC 2025)"
+      comments: <b>Distinguished paper award</b>
     - title: "AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields"
       authors: Woo Jae Kim, Kyu Beom Han, Yoonki Cho, Youngju Na, Junsik Jung, Sooel Son, and Sung-eui Yoon
       published: false
