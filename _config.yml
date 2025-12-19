@@ -300,6 +300,7 @@ publications:
       authors: Minkyoo Song, Hanna Kim, Jaehan Kim, Seungwon Shin, and Sooel Son
       published: true
       link: https://wsp-lab.github.io/papers/song-sec25.pdf
+      code: https://doi.org/10.5281/zenodo.16740884
       toptier_security: true
       booktitle: "34th USENIX Security Symposium (USENIX Security 2025)"
     - title: "TrustyMon: Practical Detection of DOM-based Cross-Site Scripting Attacks Using Trusted Types"
