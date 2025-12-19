@@ -314,6 +314,7 @@ publications:
       authors: Joonsung Jeon, Woo Jae Kim, Suhyeon Ha, Sooel Son, and Sung-eui Yoon
       published: true
       link: https://wsp-lab.github.io/papers/jeon-advpaint-iclr25.pdf
+      code: https://github.com/JoonsungJeon/AdvPaint
       toptier_cs: true
       booktitle: "13th International Conference on Learning Representations (ICLR 2025)"
     - title: "Evaluating Robustness of Reference-based Phishing Detectors"
