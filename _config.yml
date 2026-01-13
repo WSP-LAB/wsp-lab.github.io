@@ -222,6 +222,8 @@ people_alumni:
 
 news:
   list:
+  - date: Jan, 2026
+    comments: Two papers accepted in <strong>WWW'26</strong>!
   - date: Dec, 2025
     comments: We won the Distinguished Paper Award at <strong>ACSAC'25</strong>!
   - date: Oct, 2025
@@ -268,6 +270,16 @@ news:
 publications:
   - year: 2026
     list:
+    - title: "Zelda: Feedback-driven Closed-box Fuzzing for Identifying Web Application Vulnerabilities"
+      authors: Soyoung Lee, Sunnyeo Park, Yonghwi Kwon, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "The Web Conference 2026: Security and Privacy Research Track (WWW 2026)"
+    - title: "LLMs Killed Q&A Stars? Analyzing the Impact of LLM-Generated Answers on an Online Q&A Platform"
+      authors: Dongwon Shin and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "The Web Conference 2026: Social Networks and Social Media Research Track (WWW 2026)"
     - title: "Connecting the Dots: An Investigative Study on Linking Private User Data Across Messaging Apps"
       authors: Junkyu Kang, Soyoung Lee (co-leading author), Yonghwi Kwon, and Sooel Son
       published: false
