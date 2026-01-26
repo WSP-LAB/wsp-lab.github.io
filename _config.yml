@@ -270,6 +270,11 @@ news:
 publications:
   - year: 2026
     list:
+    - title: "SafeMoE: Safe Fine-Tuning for MoE LLMs by Aligning Harmful Input Routing"
+      authors: Jaehan Kim, Minkyoo Song, Seungwon Shin, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "14th International Conference on Learning Representations (ICLR 2026)"
     - title: "Zelda: Feedback-driven Closed-box Fuzzing for Identifying Web Application Vulnerabilities"
       authors: Soyoung Lee, Sunnyeo Park, Yonghwi Kwon, and Sooel Son
       published: false
