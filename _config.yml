@@ -223,6 +223,8 @@ people_alumni:
 news:
   list:
   - date: Jan, 2026
+    comments: Two papers accepted in <strong>ICLR'26</strong>!
+  - date: Jan, 2026
     comments: Two papers accepted in <strong>WWW'26</strong>!
   - date: Dec, 2025
     comments: We won the Distinguished Paper Award at <strong>ACSAC'25</strong>!
@@ -272,6 +274,11 @@ publications:
     list:
     - title: "SafeMoE: Safe Fine-Tuning for MoE LLMs by Aligning Harmful Input Routing"
       authors: Jaehan Kim, Minkyoo Song, Seungwon Shin, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "14th International Conference on Learning Representations (ICLR 2026)"
+    - title: "No Caption, No Problem: Caption-Free Membership Inference via Model-Fitted Embeddings"
+      authors: Joonsung Jeon, Woo Jae Kim, Suhyeon Ha, Sooel Son, and Sung-eui Yoon
       published: false
       toptier_cs: true
       booktitle: "14th International Conference on Learning Representations (ICLR 2026)"
