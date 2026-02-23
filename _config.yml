@@ -154,7 +154,7 @@ people_master:
     homepage:
   - name: Changoo Lee
     photo: /images/changoo.png
-    homepage:
+    homepage: https://changoo.xyz/
   - name: Yongbi Son
     photo: /images/yongbi.png
     homepage:
