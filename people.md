@@ -54,7 +54,7 @@ layout: default
         </td>
         <td class="container">
           {{ person.name }}<br />
-          <em>Ph.D. student</em>
+          <em>Postdoctoral researchers</em>
           {% if person.homepage %}
           <br />
           <a href="{{ person.homepage }}">
