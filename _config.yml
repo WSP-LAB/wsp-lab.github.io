@@ -125,10 +125,12 @@ people_prof:
   photo: /images/sooel.png
   homepage: https://sites.google.com/site/ssonkaist/home
 
-people_phd:
+people_postdoc:
   - name: Suyoung Lee
     photo: /images/swimming.png
     homepage: https://leeswimming.com/
+
+people_phd:
   - name: Sunnyeo Park
     photo: /images/sunnyeo.jpg
     homepage:
@@ -144,11 +146,11 @@ people_phd:
   - name: Sungwoo Jeon
     photo: /images/sungwoo.jpg
     homepage:
-
-people_master:
   - name: Junkyu Kang
     photo: /images/junkyu.png
     homepage:
+
+people_master:
   - name: Yoonha Bahng
     photo: /images/yoonha.png
     homepage:
@@ -160,6 +162,9 @@ people_master:
     homepage:
   - name: Hyunjoon Lee
     photo: /images/hyunjoon.jpg
+    homepage:
+  - name: Taekwan Lee
+    photo: /images/taekwan.jpg
     homepage:
 
 people_alumni:

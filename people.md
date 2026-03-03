@@ -31,6 +31,46 @@ layout: default
   <div class="col-md-4"></div>
 </div>
 
+{% if site.people_postdoc %}
+---
+## Postdoctoral researchers
+{% for person in site.people_postdoc %}
+{% assign mod3 = forloop.index | modulo: 3 %}
+{% if mod3 == 1 %}
+<div class="row">
+{% endif %}
+  <div class="col-md-4 namecard">
+    <table>
+      <tr>
+        <td>
+{% if person.photo %}
+          <div class="photo"
+               style="background:url({{ person.photo }}) center no-repeat; background-size:contain;">
+{% else %}
+          <div class="photo"
+             style="background:url(/images/user.svg) center no-repeat; background-size:contain;">
+{% endif %}
+          </div>
+        </td>
+        <td class="container">
+          {{ person.name }}<br />
+          <em>Ph.D. student</em>
+          {% if person.homepage %}
+          <br />
+          <a href="{{ person.homepage }}">
+            <span class="glyphicon glyphicon-home"></span> [homepage]
+          </a>
+        {% endif %}
+        </td>
+      </tr>
+    </table>
+  </div>
+{% if mod3 == 0 or forloop.last == true %}
+</div>
+{% endif %}
+{% endfor %}
+{% endif %}
+
 {% if site.people_phd %}
 ---
 ## Ph.D. students
