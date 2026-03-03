@@ -54,7 +54,7 @@ layout: default
         </td>
         <td class="container">
           {{ person.name }}<br />
-          <em>Postdoctoral researchers</em>
+          <em>Postdoctoral researcher</em>
           {% if person.homepage %}
           <br />
           <a href="{{ person.homepage }}">
@@ -244,3 +244,4 @@ layout: default
 {% endfor %}
 </ul>
 {% endif %}
+
