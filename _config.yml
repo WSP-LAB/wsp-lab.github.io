@@ -227,6 +227,8 @@ people_alumni:
 
 news:
   list:
+  - date: Mar, 2026
+    comments: A paper accepted in <strong>S&P'26</strong>!
   - date: Jan, 2026
     comments: Two papers accepted in <strong>ICLR'26</strong>!
   - date: Jan, 2026
@@ -277,6 +279,11 @@ news:
 publications:
   - year: 2026
     list:
+    - title: "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions"
+      authors: Suyoung Lee, Seongho Keum, Changoo Lee, Dongwon Shin, Sanghyun Hong, Byoungyoung Lee, and Sooel Son
+      published: false
+      toptier_security: true
+      booktitle: "47th IEEE Symposium on Security and Privacy (S&P 2026)"
     - title: "SafeMoE: Safe Fine-Tuning for MoE LLMs by Aligning Harmful Input Routing"
       authors: Jaehan Kim, Minkyoo Song, Seungwon Shin, and Sooel Son
       published: false
