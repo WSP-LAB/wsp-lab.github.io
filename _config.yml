@@ -136,7 +136,7 @@ people_phd:
     homepage:
   - name: Soyoung Lee
     photo: /images/soyoung.jpg
-    homepage:
+    homepage: https://leexsoyoung.github.io/
   - name: Dongwon Shin
     photo: /images/dongwon.jpg
     homepage: https://godeastone.github.io/
