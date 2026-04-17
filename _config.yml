@@ -228,6 +228,8 @@ people_alumni:
 news:
   list:
   - date: Apr, 2026
+    comments: A paper accepted in <strong>ISSTA'26</strong>!
+  - date: Apr, 2026
     comments: A paper accepted in <strong>CCS'26</strong>!
   - date: Mar, 2026
     comments: A paper accepted in <strong>S&P'26</strong>!
@@ -281,6 +283,11 @@ news:
 publications:
   - year: 2026
     list:
+    - title: "AgentBreaker: A Framework for Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
+      authors: Yongbi Son, Changoo Lee (co-leading author), Dongwon Shin, Byoungyoung Lee, Sanghyun Hong, and Sooel Son
+      published: false
+      toptier_cs: true
+      booktitle: "35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026)"
     - title: "Overloading Ad Blockers: Exploiting Filtering Logic for Selective Denial of Service"
       authors: Hyunjoon Lee, Suyoung Lee (co-leading author), Heiko Kiesel, and Sooel Son
       published: false
