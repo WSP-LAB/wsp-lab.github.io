@@ -283,7 +283,7 @@ news:
 publications:
   - year: 2026
     list:
-    - title: "AgentBreaker: A Framework for Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
+    - title: "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
       authors: Yongbi Son, Changoo Lee (co-leading author), Dongwon Shin, Byoungyoung Lee, Sanghyun Hong, and Sooel Son
       published: false
       toptier_cs: true
