@@ -151,9 +151,6 @@ people_phd:
     homepage:
 
 people_master:
-  - name: Yoonha Bahng
-    photo: /images/yoonha.png
-    homepage:
   - name: Changoo Lee
     photo: /images/changoo.png
     homepage: https://changoo.xyz/
@@ -224,6 +221,10 @@ people_alumni:
     homepage:
     degree: Master
     work: now at Rebellions, South Korea
+  - name: Yoonha Bahng
+    homepage:
+    degree: Master
+    work: now at CJ OliveNetworks, South Korea
 
 news:
   list:
