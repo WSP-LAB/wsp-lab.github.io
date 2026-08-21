@@ -228,6 +228,8 @@ people_alumni:
 
 news:
   list:
+  - date: Jul, 2026
+    comments: We were selected for <a href="https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/" target="_blank" rel="noopener noreferrer"><strong>Microsoft’s External Red Team Alliance (EXTRA)</strong></a>!
   - date: Apr, 2026
     comments: A paper accepted in <strong>ISSTA'26</strong>!
   - date: Apr, 2026
