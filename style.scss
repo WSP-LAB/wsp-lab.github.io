@@ -272,6 +272,53 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+//
+// News "More" button
+//
+
+.news-more-wrap {
+  position: relative;
+  text-align: center;
+  margin: 5px 0 25px;
+
+  // faint horizontal rule behind the button, hinting more items below
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px solid $lightGray;
+  }
+}
+
+.btn-more {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 5px 18px;
+  font-family: $defaultfont;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  background: #f7f7f7;
+  border: 2px solid #ddd;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s ease;
+
+  &:hover {
+    color: #333;
+    background: #efefef;
+    border-color: #ccc;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .08);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
