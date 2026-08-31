@@ -163,6 +163,9 @@ people_master:
   - name: Taekwan Lee
     photo: /images/taekwan.jpg
     homepage:
+  - name: Jinwoo Park
+    photo: /images/jinwoo.jpg
+    homepage:
 
 people_alumni:
   - name: Taekjin Lee
