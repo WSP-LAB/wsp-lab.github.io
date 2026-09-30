@@ -231,6 +231,10 @@ people_alumni:
 
 news:
   list:
+  - date: Sep, 2026
+    comments: A paper accepted in <strong>NeurIPS'26</strong>!
+  - date: Sep, 2026
+    comments: A paper accepted in <strong>ECCV'26</strong>!
   - date: Jul, 2026
     comments: We were selected for <a href="https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/" target="_blank" rel="noopener noreferrer"><strong>Microsoft’s External Red Team Alliance (EXTRA)</strong></a>!
   - date: Apr, 2026
@@ -289,6 +293,16 @@ news:
 publications:
   - year: 2026
     list:
+    - title: "AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising"
+      authors: Woo Jae Kim, Seongho Keum, Joonsung Jeon, Suhyeon Ha, Sooel Son, and Sung-eui Yoon
+      published: false
+      toptier_cs: true
+      booktitle: "40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)"
+    - title: "APT: Anchor-aligned Perturbations for Tamper Localization in Fully Regenerated Images"
+      authors: Suhyeon Ha, Woo Jae Kim, Joonsung Jeon, Sooel Son, and Sung-eui Yoon
+      published: false
+      toptier_cs: true
+      booktitle: "19th European Conference on Computer Vision (ECCV)"
     - title: "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
       authors: Yongbi Son, Changoo Lee (co-leading author), Dongwon Shin, Byoungyoung Lee, Sanghyun Hong, and Sooel Son
       published: false
