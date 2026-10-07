@@ -126,9 +126,6 @@ people_prof:
   homepage: https://sites.google.com/site/ssonkaist/home
 
 people_postdoc:
-  - name: Suyoung Lee
-    photo: /images/swimming.png
-    homepage: https://leeswimming.com/
 
 people_phd:
   - name: Sunnyeo Park
@@ -228,6 +225,10 @@ people_alumni:
     homepage:
     degree: Master
     work: now at CJ OliveNetworks, South Korea
+  - name: Suyoung Lee
+    homepage: https://leeswimming.com/
+    degree: Ph.D.
+    work: now Postdoctoral Researcher at UMass Amherst, US
 
 news:
   list:
