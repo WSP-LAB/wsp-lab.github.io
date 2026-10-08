@@ -306,8 +306,10 @@ publications:
       booktitle: "19th European Conference on Computer Vision (ECCV)"
     - title: "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
       authors: Yongbi Son, Changoo Lee (co-leading author), Dongwon Shin, Byoungyoung Lee, Sanghyun Hong, and Sooel Son
-      published: false
+      published: true
       toptier_cs: true
+      link: https://wsp-lab.github.io/papers/son-agentbreaker-issta26.pdf
+      code: https://github.com/WSP-LAB/AgentBreaker
       booktitle: "35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026)"
     - title: "Overloading Ad Blockers: Exploiting Filtering Logic for Selective Denial of Service"
       authors: Hyunjoon Lee, Suyoung Lee (co-leading author), Heiko Kiesel, and Sooel Son
