@@ -301,8 +301,9 @@ publications:
       booktitle: "40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)"
     - title: "APT: Anchor-aligned Perturbations for Tamper Localization in Fully Regenerated Images"
       authors: Suhyeon Ha, Woo Jae Kim, Joonsung Jeon, Sooel Son, and Sung-eui Yoon
-      published: false
+      published: true
       toptier_cs: true
+      link: https://wsp-lab.github.io/papers/ha-apt-eccv26.pdf
       booktitle: "19th European Conference on Computer Vision (ECCV)"
     - title: "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
       authors: Yongbi Son, Changoo Lee (co-leading author), Dongwon Shin, Byoungyoung Lee, Sanghyun Hong, and Sooel Son
